@@ -34,7 +34,13 @@
 {{- end }}
 
 
-<meta name="debug comment" content="comment start" />
+<meta name="debug comment" content=".Param: {{ printf "$#v" (.Param "js") }}" />
+<meta name="debug comment" content=".Param: {{ printf "$#v" .Params.js }}" />
+
+<meta
+  name="debug comment"
+  content=".Params: {{ printf "$#v" .Params }} , .Page.Params: {{ printf "$#v" .Page.Params }} , doller.Page.Params: {{ printf "$#v" $.Page.Params }}"
+/>
 {{- if .Page.Params.js }}
   <meta name="debug comment" content="{{ printf "$#v" .Page.Params.js }}" />
   {{- with resources.Get .Page.Params.js }}
