@@ -1,0 +1,6 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+    {{ partial "card.html" . }}
+  {{ end }}
+{{ end }}

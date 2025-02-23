@@ -1,0 +1,66 @@
+import { render } from "preact";
+import { html } from "htm/preact";
+
+const PaAd = ({ item }) =>
+  html`<div class="pa p-4 basis-xs w-xs border-4 rounded-xl border-[#1A237E]">
+    <a
+      href="${item.DetailPageURL}"
+      aria-label="${item.ItemInfo.Title.DisplayValue}"
+    >
+      <img
+        src="${item.Images.Primary.Medium.URL}"
+        width="160"
+        height="160"
+        class="mx-auto size-[160px] object-contain"
+    /></a>
+    <div class="text-base font-bold truncate mb-2">
+      ${item.ItemInfo.Title.DisplayValue}
+    </div>
+    <div class="text-center">
+      <span class="price">${item.Offers.Listings[0].Price.DisplayAmount}</span>
+      <a
+        class="inline-block rounded-full ml-4 py-2 px-4 bg-[#1A237E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
+        href="https://www.amazon.co.jp/dp/B00H3UCEHW?tag=takasumir-22&linkCode=ogi&th=1&psc=1"
+        >Amazonで見る</a
+      >
+    </div>
+  </div> `;
+/*  html`<div class="pa p-4 basis-xs w-xs border-4 rounded-xl border-[#1A237E]"
+  data-asin="${item.ASIN}">
+  <a href="${item.DetailPageURL}" aria-label="${item.ItemInfo.Title.DisplayValue}">
+  <img src=${item.Images.Primary.Medium.URL} width="160" height="160" class="mx-auto size-[160px] object-contain" /></a>
+  <div class="text-base font-bold truncate mb-2">${item.ItemInfo.Title.DisplayValue}</div>
+  <div class="text-center">
+  <span class="price">￥2,600</span>
+  <a class="inline-block rounded-full py-2 px-4 bg-[#1A237E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500" href="${item.DetailPageURL}"Amazonで見る"</a>
+  </div>`;*/
+
+const paContainers: NodeList = document.querySelectorAll(".pa");
+const asins: Set<string> = new Set(
+  [...paContainers].map((ele) => ele.dataset.asin),
+);
+
+async function getItems(asins) {
+  const res: Response = await fetch(
+    "http://127.0.0.1:8888/paapi/" + [...asins].join("/"),
+    {
+      mode: "cors",
+    },
+  );
+  return res.json();
+}
+
+async function renderItems(asins, containers) {
+  const res = await getItems(asins);
+  const items = res.ItemsResult.Items;
+
+  containers.forEach((ele) => {
+    const item = items.find((item) => item.ASIN === ele.dataset.asin);
+    console.log(item);
+    render(html`<${PaAd} item=${item} />`, ele);
+  });
+}
+
+if (paContainers.length > 0) {
+  renderItems(asins, paContainers);
+}

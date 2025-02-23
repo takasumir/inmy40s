@@ -1,0 +1,5 @@
+<div class="pa-container">
+  {{- range .Params -}}
+    <div class="pa" data-asin="{{ . }}"></div>
+  {{- end -}}
+</div>

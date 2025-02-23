@@ -1,0 +1,3 @@
+{{ with .Site.GetPage (.Get 0) }}
+  {{ partial "card.html" . }}
+{{ end }}

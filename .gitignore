@@ -1,0 +1,8 @@
+public/
+node_modules/
+package-lock.json
+.hugo_build.lock
+resources/
+
+# Local Netlify folder
+.netlify

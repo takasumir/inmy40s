@@ -1,0 +1,24 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja-jp'
+title = 'In my 40s'
+theme = 'basic'
+hasCJKLanguage = true
+
+[build]
+  [[build.cachebusters]]
+    source = 'layouts/.*'
+    target = 'css'
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'ちゃり'
+    pageRef = '/bike'
+    weight = 20
+  [[menus.main]]
+    name = 'そのた'
+    pageRef = '/services'
+    weight = 30

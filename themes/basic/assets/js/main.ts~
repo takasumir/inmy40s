@@ -1,0 +1,23 @@
+import { render } from "preact";
+import { html } from "htm/preact";
+
+const PaAd = ({ asin }) => html`<div>${asin}</div>`;
+
+const paContainers: NodeList = document.querySelectorAll(".pa");
+const asins: Set<string> = new Set(
+    [...paContainers].map((ele) => ele.dataset.asin),
+);
+
+const res: Response = await fetch(
+    "http://127.0.0.1:8888/paapi/" + [...asins].join("/"),
+    {
+        mode: "cors",
+    },
+);
+const resBody = await res.json();
+const items = resBody.ItemsResult.Items;
+
+paContainers.forEach((ele) => {
+    const item = items.find((item) => item.ASIN === ele.dataset.asin);
+    render(html`<${PaAd} asin="${item.DetailPageURL}" />`, ele);
+});
