@@ -14,8 +14,9 @@
     {{- end }}
   {{- end }}
 {{- end }}
-
+<meta name="debug comment" content="comment start" />
 {{- if .Page.Params.js }}
+  <meta name="debug comment" content="{{ printf "$#v" .Page.Params.js }}" />
   {{- with resources.Get .Page.Params.js }}
     <meta name="debug comment" content="{{ printf "$#v" . }}" />
     {{- if eq hugo.Environment "development" }}
