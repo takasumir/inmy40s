@@ -14,6 +14,25 @@
     {{- end }}
   {{- end }}
 {{- end }}
+
+{{- with resources.Get "js/pa.ts" }}
+  {{- if eq hugo.Environment "development" }}
+    {{- with . | js.Build }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{- end }}
+  {{- else }}
+    {{- $opts := dict "minify" true }}
+    {{- with . | js.Build $opts | fingerprint }}
+      <script
+        src="{{ .RelPermalink }}"
+        integrity="{{- .Data.Integrity }}"
+        crossorigin="anonymous"
+      ></script>
+    {{- end }}
+  {{- end }}
+{{- end }}
+
+
 <meta name="debug comment" content="comment start" />
 {{- if .Page.Params.js }}
   <meta name="debug comment" content="{{ printf "$#v" .Page.Params.js }}" />
