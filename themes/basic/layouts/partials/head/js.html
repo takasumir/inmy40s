@@ -15,8 +15,13 @@
   {{- end }}
 {{- end }}
 
-{{- with .Page.Params.js }}
+{{- with .Params.js }}
+  <meta name="debug comment" content="{{ printf "$#v" . }}" />
   {{- with resources.Get . }}
+    <meta
+      name="debug comment"
+      content="the js resource above is successfuly got"
+    />
     {{- if eq hugo.Environment "development" }}
       {{- with . | js.Build }}
         <script defer src="{{ .RelPermalink }}"></script>
