@@ -15,40 +15,20 @@
   {{- end }}
 {{- end }}
 
-
-<meta name="debug comment" content=".Param: {{ printf "$#v" (.Param "js") }}" />
-<meta name="debug comment" content=".Param: {{ printf "$#v" .Params.js }}" />
-<meta name="debug comment" content=".Params: {{ printf "$#v" .Params }}" />
-<meta
-  name="debug comment"
-  content=".Page.Params: {{ printf "$#v" .Page.Params }}"
-/>
-<meta
-  name="debug comment"
-  content="page.Params: {{ printf "$#v" page.Params }}"
-/>
-<meta
-  name="debug comment"
-  content="d.Page.Params: {{ printf "$#v" $.Page.Params }}"
-/>
-{{- if .Params.js }}
-  <meta name="debug comment" content="{{ printf "$#v" .Page.Params.js }}" />
-  {{- with resources.Get .Page.Params.js }}
-    <meta name="debug comment" content="{{ printf "$#v" . }}" />
-    {{- if eq hugo.Environment "development" }}
-      {{- with . | js.Build }}
-        <script defer src="{{ .RelPermalink }}"></script>
-      {{- end }}
-    {{- else }}
-      {{- $opts := dict "minify" true }}
-      {{- with . | js.Build $opts | fingerprint }}
-        <script
-          defer
-          src="{{ .RelPermalink }}"
-          integrity="{{- .Data.Integrity }}"
-          crossorigin="anonymous"
-        ></script>
-      {{- end }}
+{{- with resources.Get .Page.Params.js }}
+  {{- if eq hugo.Environment "development" }}
+    {{- with . | js.Build }}
+      <script defer src="{{ .RelPermalink }}"></script>
+    {{- end }}
+  {{- else }}
+    {{- $opts := dict "minify" true }}
+    {{- with . | js.Build $opts | fingerprint }}
+      <script
+        defer
+        src="{{ .RelPermalink }}"
+        integrity="{{- .Data.Integrity }}"
+        crossorigin="anonymous"
+      ></script>
     {{- end }}
   {{- end }}
 {{- end }}

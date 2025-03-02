@@ -5,8 +5,9 @@
 >
   <head>
     {{ partial "head.html" . }}
+    {{ block "head" . }}{{ end }}
   </head>
-  <body class="my-10">
+  <body class="my-10 mx-4">
     <header class="mx-auto max-w-[90ch]">
       {{ partial "header.html" . }}
     </header>

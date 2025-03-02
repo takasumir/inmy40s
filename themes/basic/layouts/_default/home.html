@@ -1,5 +1,7 @@
 {{ define "main" }}
-  {{ .Content }}
+  <div class="markdown my-2">
+    {{ .Content }}
+  </div>
   {{ range site.RegularPages }}
     {{ partial "card.html" . }}
   {{ end }}

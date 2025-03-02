@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1 class="text-3xl mb-4 tracking-tight" text-black font-bold>
+    {{ .Title }}
+  </h1>
+  <div class="markdown">
+    {{ .Content }}
+  </div>
+  {{ range .Pages }}
+    <h2 class="text-2xl mb-4 tracking-tight" text-black font-bold>
+      <a class="underline hover:text-blue-600" href="{{ .RelPermalink }}"
+        >{{ .LinkTitle }}</a
+      >
+    </h2>
+    <div class="markdown">
+      {{ .Summary }}
+    </div>
+  {{ end }}
+{{ end }}

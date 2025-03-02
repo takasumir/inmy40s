@@ -1,0 +1,76 @@
+async function mapInit() {
+  mapboxgl.accessToken =
+    "pk.eyJ1IjoidGFrYXN1bWlyIiwiYSI6ImNrcHhlczJvODA5eWYycGxvM3JoeHJvc3oifQ.lM5T-e_pyRo8KVXL06quAQ";
+  const mapConts = document.getElementsByClassName("mapbox");
+  console.log(mapConts);
+
+  for (mapCont of mapConts) {
+    console.log(mapCont.dataset.json);
+    const response = await fetch(mapCont.dataset.json);
+    console.log(response);
+    const geojsondata = await response.json();
+    const center = JSON.parse(mapCont.dataset.center);
+    const zoom = parseInt(mapCont.dataset.zoom);
+
+    const map = new mapboxgl.Map({
+      container: mapCont.id,
+      style: "mapbox://styles/takasumir/cl0nj4uwb004b14pk7x9zje2a",
+      center: center,
+      zoom: zoom,
+    });
+
+    map.on("load", () => {
+      for (feature of geojsondata.features) {
+        switch (feature.geometry.type) {
+          case "LineString":
+            map.addSource("route", {
+              type: "geojson",
+              data: feature,
+            });
+            map.addLayer({
+              id: "route",
+              type: "line",
+              source: "route",
+              layout: {
+                "line-join": "round",
+                "line-cap": "round",
+              },
+              paint: {
+                "line-color": "#2222ff",
+                "line-opacity": 0.8,
+                "line-width": 4,
+              },
+            });
+            break;
+
+          case "Point":
+            const markerTemplate = document.getElementById(
+              feature.properties.marker,
+            );
+            let cloneMarker = null;
+            if (markerTemplate !== null) {
+              cloneMarker = document.createElement("div", {
+                style: "margin:0;padding:0",
+              });
+              cloneMarker.appendChild(markerTemplate.content.cloneNode(true));
+            }
+            const marker = new mapboxgl.Marker({
+              element: cloneMarker,
+              anchor: "bottom",
+              offset: [0, 6],
+              color: feature.properties.color,
+            })
+              .setLngLat(feature.geometry.coordinates)
+              .setPopup(
+                new mapboxgl.Popup({
+                  offset: { top: [0, 0], bottom: [0, -40] },
+                }).setHTML(feature.properties.html),
+              )
+              .addTo(map);
+            break;
+        }
+      }
+    });
+  }
+}
+mapInit();

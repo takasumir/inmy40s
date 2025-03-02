@@ -20,7 +20,7 @@ hasCJKLanguage = true
     weight = 20
   [[menus.main]]
     name = 'そのた'
-    pageRef = '/services'
+    pageRef = '/others'
     weight = 30
 
 [markup.goldmark.parser.attribute]

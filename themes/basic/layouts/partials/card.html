@@ -1,10 +1,16 @@
-{{- $img := .Resources.GetMatch (.Params.image) }}
+{{- $small := "" -}}
+{{- $medium := "" -}}
+{{- with .Resources.GetMatch (.Params.image) }}
+  {{- $small = .Fill "144x144 webp" -}}
+  {{- $medium = .Fill "288x288 webp" -}}
+{{- end -}}
 <article
   class="my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
 >
-  {{- with $img }}
+  {{- with $small }}
     <img
-      src="{{ $img.RelPermalink }}"
+      srcset="{{ .RelPermalink }} 144w, {{ $medium.RelPermalink }} 288w"
+      src="{{ .RelPermalink }}"
       alt="featured image"
       class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
       width="192"

@@ -1,0 +1,23 @@
+{{- $u := urls.Parse .Destination -}}
+{{- $path := strings.TrimPrefix "./" $u.Path -}}
+{{- $src := $u.String -}}
+{{- $small := "" -}}
+{{- $medium := "" -}}
+{{- $large := "" -}}
+{{- with .Page.Resources.Get $path -}}
+  {{- $small = .Fit "480x480 webp" }}
+  {{- $medium = .Fit "768x768 webp" }}
+  {{- $large = .Fit "1024x1024 webp" }}
+  {{- $src = .RelPermalink -}}
+{{- end -}}
+<img
+  class="max-h-[90ch] mx-auto object-contain"
+  {{ with $small }}
+    srcset=" {{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w,
+    {{ $large.RelPermalink }} 1024w "
+  {{ end }}
+  src="{{ $src }}"
+  alt="{{ .PlainText }}"
+  {{- with .Title }}title="{{ . }}"{{- end -}}
+/>
+{{- /**/ -}}

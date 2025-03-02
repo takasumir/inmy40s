@@ -1,0 +1,9 @@
+{{- $data := .Get "json" -}}
+{{- $center := .Get "center" -}}
+{{- $zoom := .Get "zoom" -}}
+<div
+  class="mapbox h-80 w-full"
+  data-json="{{ $data | safeURL }}"
+  data-center="{{ $center }}"
+  data-zoom="{{ $zoom }}"
+></div>

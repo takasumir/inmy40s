@@ -1,0 +1,13 @@
+{{- with (.Get 0) -}}
+  <div class="gmap">
+    <iframe
+      allowfullscreen=""
+      height="320"
+      loading="lazy"
+      name="Googleマップ"
+      src="{{ . }}"
+      class="border-none w-full h-[320px]"
+    >
+    </iframe>
+  </div>
+{{- end -}}

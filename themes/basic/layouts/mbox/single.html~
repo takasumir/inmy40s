@@ -1,0 +1,39 @@
+{{ define "head" }}
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.js"></script>
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v3.10.0/mapbox-gl.css"
+    rel="stylesheet"
+  />
+  {{- with resources.Get "js/mbox.js" }}
+    {{- if eq hugo.Environment "development" }}
+      {{- with . | js.Build }}
+        <script defer src="{{ .RelPermalink }}"></script>
+      {{- end }}
+    {{- else }}
+      {{- $opts := dict "minify" true }}
+      {{- with . | js.Build $opts | fingerprint }}
+        <script
+          defer
+          src="{{ .RelPermalink }}"
+          integrity="{{- .Data.Integrity }}"
+          crossorigin="anonymous"
+        ></script>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{ end }}
+{{ define "main" }}
+  <article class="sm:p-2 with-map">
+    <h1 class="text-3xl tracking-tight text-black font-bold">
+      {{ .Title }}
+    </h1>
+
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <time datetime="{{ $dateMachine }}" class="mb-4">{{ $dateHuman }}</time>
+    <div class="markdown my-2">
+      {{ .Content }}
+    </div>
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </article>
+{{ end }}
