@@ -2,7 +2,7 @@ public/
 node_modules/
 package-lock.json
 .hugo_build.lock
-resources/
+# resources/
 
 # Local Netlify folder
 .netlify
