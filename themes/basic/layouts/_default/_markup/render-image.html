@@ -1,23 +1,24 @@
 {{- $u := urls.Parse .Destination -}}
 {{- $path := strings.TrimPrefix "./" $u.Path -}}
 {{- $src := $u.String -}}
-{{- $small := "" -}}
-{{- $medium := "" -}}
-{{- $large := "" -}}
-{{- with .Page.Resources.Get $path -}}
-  {{- $small = .Fit "480x480 webp" }}
-  {{- $medium = .Fit "768x768 webp" }}
-  {{- $large = .Fit "1024x1024 webp" }}
-  {{- $src = .RelPermalink -}}
+{{- $img := .Page.Resources.Get $path -}}
+{{- if $img -}}
+  {{- $small := $img.Fit "480x480 webp" }}
+  {{- $medium := $img.Fit "768x768 webp" }}
+  {{- $large := $img.Fit "1024x1024 webp" }}
+  {{- $original := $img.RelPermalink -}}
+  <img
+    class="max-h-[90ch] mx-auto object-contain"
+    width="{{ $img.Width }}"
+    height="{{ $img.Height }}"
+    srcset="
+      {{ $small.RelPermalink }}  480w,
+      {{ $medium.RelPermalink }}  768w,
+      {{ $large.RelPermalink }} 1024w
+    "
+    src="{{ $original }}"
+    alt="{{ .PlainText }}"
+    {{- with .Title }}title="{{ . }}"{{- end -}}
+  />
 {{- end -}}
-<img
-  class="max-h-[90ch] mx-auto object-contain"
-  {{ with $small }}
-    srcset=" {{ $small.RelPermalink }} 480w, {{ $medium.RelPermalink }} 768w,
-    {{ $large.RelPermalink }} 1024w "
-  {{ end }}
-  src="{{ $src }}"
-  alt="{{ .PlainText }}"
-  {{- with .Title }}title="{{ . }}"{{- end -}}
-/>
 {{- /**/ -}}
