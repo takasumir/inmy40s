@@ -17,6 +17,7 @@
       {{ $large.RelPermalink }} 1024w
     "
     src="{{ $original }}"
+    loading="lazy"
     alt="{{ .PlainText }}"
     {{- with .Title }}title="{{ . }}"{{- end -}}
   />
