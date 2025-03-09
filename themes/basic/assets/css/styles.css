@@ -16,3 +16,5 @@ body {
 }
 
 @import "components/markdown.css";
+
+@import "components/pagination.css";

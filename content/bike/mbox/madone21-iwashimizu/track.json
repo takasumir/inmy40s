@@ -8,7 +8,7 @@
       "properties": {
         "description": "毛馬閘門",
         "name": "毛馬閘門",
-        "html": "<p style=\"margin:0;width:120px\">毛馬閘門<br/><img alt=\"毛馬閘門\" width=\"120\" height=\"80\"  src=\"images/DSCF0402.JPG\"/></p>",
+        "html": "<p style=\"margin:0;width:120px\">毛馬閘門<br/><img alt=\"毛馬閘門\" width=\"120\" height=\"80\"  src=\"images/DSCF0402s.webp\"/></p>",
         "marker": "<svg height='40' id='start_svg' version='1.1' viewBox='0 96 960 960' width='40' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'><path d='M 480,976 C 372.66667,884.66667 292.5,799.83333 239.5,721.5 186.5,643.16667 160,570.66667 160,504 c 0,-100 32.16667,-179.66667 96.5,-239 64.33333,-59.33333 138.83333,-89 223.5,-89 84.66667,0 159.16667,29.66667 223.5,89 64.33333,59.33333 96.5,139 96.5,239 0,66.66667 -26.5,139.16667 -79.5,217.5 C 667.5,799.83333 587.33333,884.66667 480,976 Z' id='path1787' style='fill:#42a5f5;stroke-width:72;stroke:#42a5f5'></path><path class='UnoptimicedTransforms' d='m 427.61984,337.91246 153.001,163.30724 m -153.001,163.30726 153.001,-163.30724' id='path1053' style='opacity:1;fill:none;stroke:#fff;stroke-width:69.14210521;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1' transform='matrix(0.98232578,0,0,0.98463912,9.712259,-2.5603181)'></path></svg>"
       },
       "type": "Feature"
@@ -21,7 +21,7 @@
       "properties": {
         "description": "石清水八幡宮",
         "name": "石清水八幡宮",
-        "html": "<p style=\"margin:0;width:120px\">石清水八幡宮<br/><img alt=\"石清水八幡宮\" width=\"120\" height=\"80\"  src=\"images/DSCF0423.JPG\"/></p>",
+        "html": "<p style=\"margin:0;width:120px\">石清水八幡宮<br/><img alt=\"石清水八幡宮\" width=\"120\" height=\"80\"  src=\"images/DSCF0423s.webp\"/></p>",
         "marker": "<svg height='40' id='goal_svg' version='1.1' viewBox='0 96 960 960' width='40' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'><path d='M 480,976 C 372.66667,884.66667 292.5,799.83333 239.5,721.5 186.5,643.16667 160,570.66667 160,504 c 0,-100 32.16667,-179.66667 96.5,-239 64.33333,-59.33333 138.83333,-89 223.5,-89 84.66667,0 159.16667,29.66667 223.5,89 64.33333,59.33333 96.5,139 96.5,239 0,66.66667 -26.5,139.16667 -79.5,217.5 C 667.5,799.83333 587.33333,884.66667 480,976 Z' id='path1787' style='fill:#42A5F5'></path><path class='UnoptimicedTransforms' d='m 340.56219,445.76257 h 140 v 140 h -140 z m 280,0 h 140 v 140 h -140 z m -140,140 h 140 v 140 h -140 z m 280,0 h 140 v 140 h -140 z m -420,140 h 140 v 140 h -140 z m 280,0 h 140 v 140 h -140 z m -140,140 h 140 v 140.00003 h -140 z m 280,0 h 140 v 140.00003 h -140 z' height='140' id='rect5964' rx='0' ry='0' style='opacity:1;fill:#ffffff;stroke:none;stroke-width:38;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none' transform='translate(-120.52058,-249.67651)' width='140' x='340.56219' y='445.76257'></path><path d='M 480,976 C 372.66667,884.66667 292.5,799.83333 239.5,721.5 186.5,643.16667 160,570.66667 160,504 c 0,-100 32.16667,-179.66667 96.5,-239 64.33333,-59.33333 138.83333,-89 223.5,-89 84.66667,0 159.16667,29.66667 223.5,89 64.33333,59.33333 96.5,139 96.5,239 0,66.66667 -26.5,139.16667 -79.5,217.5 C 667.5,799.83333 587.33333,884.66667 480,976 Z' id='path6020' style='fill:none;stroke-width:72;stroke-dasharray:none;stroke:#42A5F5'></path></svg>"
       },
       "type": "Feature"

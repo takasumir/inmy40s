@@ -2,7 +2,10 @@
   <div class="markdown my-2">
     {{ .Content }}
   </div>
-  {{ range site.RegularPages }}
+  {{- $pages := site.RegularPages -}}
+  {{- $paginator := .Paginate $pages.ByDate 10 -}}
+  {{ range $paginator.Pages -}}
     {{ partial "card.html" . }}
-  {{ end }}
+  {{- end -}}
+  {{- template "_internal/pagination.html" . -}}
 {{ end }}
