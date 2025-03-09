@@ -1,0 +1,4 @@
+{{- alt := .Get "alt" -}}
+{{- with .Resources.Get (.Get "src") -}}
+  <img src="{{ .RelPermalink }}" alt="{{ $alt }}" class="w-4 inline-block" />
+{{- end -}}

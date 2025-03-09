@@ -1,5 +1,14 @@
 import * as params from "@params";
 
+const styleMap = new Map([
+  [
+    "gsi",
+    "https://raw.githubusercontent.com/gsi-cyberjapan/optimal_bvmap/52ba56f645334c979998b730477b2072c7418b94/style/std.json",
+  ],
+  ["outdoor", "mapbox://styles/takasumir/cm80zylz4007101sj9hpbb07x"],
+  ["default", "mapbox://styles/takasumir/cl0nj4uwb004b14pk7x9zje2a"],
+]);
+
 async function mapInit() {
   mapboxgl.accessToken = params.apiKey;
 
@@ -12,7 +21,7 @@ async function mapInit() {
     const zoom = parseInt(mapCont.dataset.zoom);
     const map = new mapboxgl.Map({
       container: mapCont,
-      style: "mapbox://styles/takasumir/cl0nj4uwb004b14pk7x9zje2a",
+      style: styleMap.get(mapCont.dataset.style) ?? styleMap.get("default"),
       center: center,
       zoom: zoom,
     });

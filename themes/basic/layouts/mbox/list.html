@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <article class="sm:p-2">
+    <h1 class="text-3xl tracking-tight text-black font-bold">
+      {{ .Title }}
+    </h1>
+    <div class="markdown my-2">
+      {{ .Content }}
+    </div>
+    {{ range .Pages }}
+      {{ partial "card.html" . }}
+    {{ end }}
+  </article>
+{{ end }}

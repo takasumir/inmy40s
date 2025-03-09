@@ -16,8 +16,6 @@ title: てんきてんき村オートキャンプ場で海キャンプ
 
 お盆休みの今週は京都の日本海側、てんきてんき村オートキャンプ場に行きました。
 
-![title-image](./images/tenkitenki.jpg) 
-
 ## 予約方法
 
 [道の駅てんきてんき丹後 公式ホームページ](https://tenkitenki-mura.jp/)

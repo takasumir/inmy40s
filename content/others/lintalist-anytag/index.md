@@ -15,8 +15,6 @@ title: Lintalistの便利な使い方 － HTMLタグを選択し選択範囲を�
 
 ## Snippet の中で動的にタグを選びたい
 
-![hero-image](./images/lintalist-t.png)
-
 前回の記事
 [Lintalistの便利な使い方 － 選択範囲をHTMLタグで囲む](lintalist-tag)
 で選択範囲をHTMLタグで囲むやり方を紹介しました。

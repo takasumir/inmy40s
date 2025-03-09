@@ -11,8 +11,6 @@ tags:
 title: Louis Garneau LGS-MV1 ミニベロブルホーン化 3
 ---
 
-![ブルホーン](./images/bullhorn.jpg)
-
 ミニベロのハンドルは、普通はフラットハンドルが一般的ですが見た目かっこよく長時間のライドも楽になるブルホーン。Louis
 Garneau LGS-MV1
 ミニベロブルホーン化してみました。全3編、ついに改造完了です！

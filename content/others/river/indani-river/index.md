@@ -15,8 +15,6 @@ title: 川遊びスポット 猪谷川水辺公園
 
 和歌山県の猪谷川水辺公園に川遊びに行きました。
 
-![title-image](./images/IMG_20200812_103120.jpg) 
-
 ## アクセス
 
 {{< gmap-iframe "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18400.221766178343!2d135.41273514036914!3d33.96554336264678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600710cd7eb931ab%3A0xce5c73108bca77a4!2z54yq6LC35bed5rC06L665YWs5ZyS!5e0!3m2!1sja!2sjp!4v1597320866707!5m2!1sja!2sjp" >}}

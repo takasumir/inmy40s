@@ -23,5 +23,9 @@ hasCJKLanguage = true
     pageRef = '/others'
     weight = 30
 
-[markup.goldmark.parser.attribute]
-  block = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false
+      [markup.goldmark.parser.attribute]
+        block = true
