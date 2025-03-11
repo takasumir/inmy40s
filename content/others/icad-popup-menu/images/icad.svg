@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 508 285.75"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="338.08808"
+       y="278.53969"
+       width="1291.1132"
+       height="801.46031"
+       id="rect511" />
+    <rect
+       x="209.45055"
+       y="256.34607"
+       width="1400.3441"
+       height="698.93647"
+       id="rect400" />
+    <rect
+       x="317.46446"
+       y="273.28159"
+       width="1412.3745"
+       height="595.40959"
+       id="rect186" />
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#c7003a;stroke:none;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+       id="rect723"
+       width="508"
+       height="285.75"
+       x="0"
+       y="0"
+       rx="4.0132313"
+       ry="4.0132313" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text398"
+       style="font-weight:600;font-size:120px;line-height:30px;font-family:'URW Gothic';-inkscape-font-specification:'URW Gothic Semi-Bold';text-align:center;white-space:pre;shape-inside:url(#rect400);display:inline;fill:#0000ff;stroke:none;stroke-width:40;stroke-linecap:round;stroke-linejoin:round" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:111.56px;line-height:27.8899px;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';text-align:center;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round"
+       x="250.78612"
+       y="184.46487"
+       id="text669"><tspan
+         id="tspan667"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:semi-condensed;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold Semi-Condensed';stroke-width:10.5833"
+         x="250.7861"
+         y="184.46487">iCAD SX</tspan></text>
+  </g>
+</svg>

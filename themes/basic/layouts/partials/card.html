@@ -1,28 +1,30 @@
-{{- $small := "" -}}
-{{- $medium := "" -}}
-{{- with .Resources.GetMatch (.Params.image) }}
-  {{- $small = .Fill "144x144 webp" -}}
-  {{- $medium = .Fill "288x288 webp" -}}
-{{- end -}}
 <article
   class="my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
 >
-  {{- with $small }}
-    <img
-      srcset="{{ .RelPermalink }} 144w, {{ $medium.RelPermalink }} 288w"
-      src="{{ .RelPermalink }}"
-      alt="featured image"
-      class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
-      width="192"
-      height="192"
-    />
-  {{- end }}
-
-
+  {{- with .Resources.GetMatch (.Params.image) }}
+    {{- if eq .MediaType.SubType "svg" -}}
+      <img
+        class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
+        src="{{ .RelPermalink | safeURL }}"
+        alt="featured image"
+      />
+    {{- else -}}
+      {{- $small := .Fill "144x144 webp" -}}
+      {{- $medium := .Fill "288x288 webp" -}}
+      <img
+        srcset="{{ $small.RelPermalink }} 144w, {{ $medium.RelPermalink }} 288w"
+        src="{{ $small.RelPermalink }}"
+        alt="featured image"
+        class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
+        width="192"
+        height="192"
+      />
+    {{- end -}}
+  {{- end -}}
   <div class="flex-auto">
     <h2 class="text-2xl mb-4 tracking-tight" text-black font-bold>
-      <a class="hover:text-blue-600" href="{{ .RelPermalink }}"
-        >{{ .LinkTitle }}</a
+      <a class="hover:text-blue-600" href="{{ $.RelPermalink }}"
+        >{{ $.LinkTitle }}</a
       >
     </h2>
     <p class="line-clamp-3 hidden md:inline">{{ .Summary }}</p>

@@ -3,23 +3,31 @@
 {{- $src := $u.String -}}
 {{- $img := .Page.Resources.Get $path -}}
 {{- if $img -}}
-  {{- $small := $img.Fit "480x480 webp" }}
-  {{- $medium := $img.Fit "768x768 webp" }}
-  {{- $large := $img.Fit "1024x1024 webp" }}
-  {{- $original := $img.RelPermalink -}}
-  <img
-    class="max-h-[90ch] mx-auto object-contain"
-    width="{{ $img.Width }}"
-    height="{{ $img.Height }}"
-    srcset="
-      {{ $small.RelPermalink }}  480w,
-      {{ $medium.RelPermalink }}  768w,
-      {{ $large.RelPermalink }} 1024w
-    "
-    src="{{ $original }}"
-    loading="lazy"
-    alt="{{ .PlainText }}"
-    {{- with .Title }}title="{{ . }}"{{- end -}}
-  />
+  {{- if eq $img.MediaType.SubType "svg" -}}
+    <img
+      class="max-h-[90ch] mx-auto object-contain"
+      src="{{ $img.RelPermalink | safeURL }}"
+      alt="{{ .PlainText }}"
+    />
+  {{- else -}}
+    {{- $small := $img.Fit "480x480 webp" }}
+    {{- $medium := $img.Fit "768x768 webp" }}
+    {{- $large := $img.Fit "1024x1024 webp" }}
+    {{- $original := $img.RelPermalink -}}
+    <img
+      class="max-h-[90ch] mx-auto object-contain"
+      width="{{ $img.Width }}"
+      height="{{ $img.Height }}"
+      srcset="
+        {{ $small.RelPermalink }}  480w,
+        {{ $medium.RelPermalink }}  768w,
+        {{ $large.RelPermalink }} 1024w
+      "
+      src="{{ $original }}"
+      loading="lazy"
+      alt="{{ .PlainText }}"
+      {{- with .Title }}title="{{ . }}"{{- end -}}
+    />
+  {{- end -}}
 {{- end -}}
 {{- /**/ -}}
