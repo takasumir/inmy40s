@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:43:01+09:00"
 draft: false
-image: images/IMG_5273.JPG
+images: 
+- images/IMG_5273.JPG
 summary: 手触りの良いゴムで自転車のステムに固定できるスマホホルダー、BoneのBike Tie Pro 4を購入したのでレビューします。
 tags:
 - スマホホルダー

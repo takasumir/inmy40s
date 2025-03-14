@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T20:17:31+09:00"
 draft: false
-image: images/DSCF4528.JPG
+images: 
+- images/DSCF4528.JPG
 summary: 3段ギヤでは坂道が辛いママチャリ、Bikkeの小ギヤを交換してギヤ比を変更することで軽くらくらく坂道を登れるように改造しました。
 tags:
 - bikke

@@ -4,7 +4,8 @@ categories:
 - レンズ
 date: "2025-02-15T23:42:26+09:00"
 draft: false
-image: images/DSCF4484.JPG
+images: 
+- images/DSCF4484.JPG
 summary: 中玉にカビの生えたHektor 135/4.5 を分解清掃しました。
 tags:
 - Hektor 135/4.5

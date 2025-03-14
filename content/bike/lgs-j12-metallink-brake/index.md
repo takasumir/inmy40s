@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:38+09:00"
 draft: false
-image: images/IMG_20200315_103510.jpg
+images: 
+- images/IMG_20200315_103510.jpg
 summary: 子ども用自転車のバンドブレーキがキーキー音鳴りがするため、メタルリンクブレーキに交換しました。音鳴りはなくなり見栄えもよく満足です。
 tags:
 - LGS-J12

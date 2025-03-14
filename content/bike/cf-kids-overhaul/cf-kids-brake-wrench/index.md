@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:42+09:00"
 draft: false
-image: images/IMG_4985.JPG
+images: 
+- images/IMG_4985.JPG
 summary: 自転車のブレーキをセンター調整するための専用工具をご紹介します。
 tags:
 - 工具

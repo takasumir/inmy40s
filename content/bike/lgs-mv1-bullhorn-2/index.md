@@ -1,7 +1,8 @@
 ---
 date: "2025-02-15T19:40:20+09:00"
 draft: false
-image: images/bullhorn.jpg
+images: 
+- images/bullhorn.jpg
 summary: Louis Garneau LGS-MV1 ミニベロブルホーン化。前回購入した部品を取付け改造していきます！
 title: Louis Garneau LGS-MV1 ミニベロブルホーン化 2
 categories:

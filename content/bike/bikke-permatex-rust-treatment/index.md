@@ -2,7 +2,8 @@
 title: 'Permatex Rust Treatment 錆転換剤で自転車の錆を撃退'
 date: 2025-02-11T10:17:42+09:00
 draft: false
-image: 'images/DSCF4485.JPG'
+images: 
+- 'images/DSCF4485.JPG'
 summary: '赤錆を黒錆に転換するPermatex Rust Treatmentをママチャリ ブリヂストンBikkeの錆びた部分に塗ってみました。効果のほどは！？'
 categories:
 - 自転車

@@ -3,7 +3,8 @@ categories:
 - アウトドア
 date: "2025-02-15T23:43:00+09:00"
 draft: false
-image: images/EPSN0182.jpg
+images: 
+- images/EPSN0182.jpg
 summary: 滋賀県の琵琶湖東側にある3つのお寺、湖東三山の1つ、金剛輪寺を紹介します。紅葉がきれいなお寺です。
 tags:
 - 紅葉

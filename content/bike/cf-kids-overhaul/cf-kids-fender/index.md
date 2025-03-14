@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:44+09:00"
 draft: false
-image: images/DSCF0049.JPG
+images: 
+- images/DSCF0049.JPG
 summary: 長年子供が使ってきた自転車、クロスファイヤーキッズ。白化してボロボロになったドロヨケを外してスッキリしました。
 tags:
 - クロスファイヤーキッズ

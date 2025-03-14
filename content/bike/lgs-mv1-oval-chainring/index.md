@@ -2,7 +2,8 @@
 title: 'ルイガノ LGS-MV1 フロントチェーンリング交換'
 date: 2025-02-11T10:17:42+09:00
 draft: false
-image: 'images/DSCF4380.JPG'
+images: 
+- 'images/DSCF4380.JPG'
 summary: 'bchariの自転車、ルイガノのLGS-MV1です。最近、駅まで自転車通勤するようになって家の前の激坂が辛い。ギア比を変えて楽に坂を登れないかということでフロントチェーンリングを交換してみました。'
 categories:
 - 自転車

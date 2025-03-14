@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:54+09:00"
 draft: false
-image: images/XOSS.webp
+images: 
+- images/XOSS.webp
 summary: 激安GPSサイコン XOSS G で取得したGPSトラックログをスマホに転送するためのアプリインストール方法とSTRAVAとの連携方法を解説します。
 tags:
 - GPSサイコン

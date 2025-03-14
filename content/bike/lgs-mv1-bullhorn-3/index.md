@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T20:03:54+09:00"
 draft: false
-image: images/bullhorn.jpg
+images: 
+- images/bullhorn.jpg
 summary: Louis Garneau LGS-MV1 ミニベロブルホーン化。四苦八苦しながらなんとか改造完了しました！
 tags:
 - 自転車

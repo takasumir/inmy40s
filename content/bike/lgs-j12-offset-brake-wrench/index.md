@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:39+09:00"
 draft: false
-image: images/IMG_20200315_163844.jpg
+images: 
+- images/IMG_20200315_163844.jpg
 summary: ブレーキの片当りを修正する工、具PARKTOOL オフセットブレーキレンチ OBW-4をご紹介します。
 tags:
 - LGS-J12

@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-16T08:25:36+09:00"
 draft: false
-image: images/IMG_4880_01.jpg
+images: 
+- images/IMG_4880_01.jpg
 summary: しばらく使っていなかった自転車、ブリヂストンのBikkeですが、久しぶりに子供を乗せて出かけようと思ったら前輪がパンクしていました。自分でチューブ交換してみた記録です。
 tags:
 - bikke

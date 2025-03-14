@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:33+09:00"
 draft: false
-image: images/IMG_4879.jpg
+images: 
+- images/IMG_4879.jpg
 summary: DIYで革シート張りしたサドルが経年劣化でボロボロになってきました。普通にアサヒ自転車の子ども用サドルを購入し取付。シートポストの径が合わずアダプターが必要でした。
 tags:
 - LGS-J12

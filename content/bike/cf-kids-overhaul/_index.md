@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:40+09:00"
 draft: false
-image: images/IMG_4972.JPG
+images: 
+- images/IMG_4972.JPG
 summary: 子ども用自転車、ブリヂストン クロスファイヤーキッズをこのたび3人目の子供が乗るようになりました。ところどころ錆びていたり、ワイヤーなどもボロボロになってきているため、DIYでオーバーホールに挑戦します。
 tags: 
 - クロスファイヤーキッズ

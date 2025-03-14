@@ -3,7 +3,8 @@ categories:
 - ソフトウェア
 date: "2025-02-15T23:42:42+09:00"
 draft: false
-image: images/lintalistbw.png
+images: 
+- images/lintalistbw.png
 summary: 定型文を挿入したり、選択範囲の文を加工できる便利ツールLintalistを使い、文をHTMLタグで囲う方法をご紹介します。
 tags:
 - PC

@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:43:02+09:00"
 draft: false
-image: images/DSCF4142_02.jpg
+images: 
+- images/DSCF4142_02.jpg
 summary: ロードバイクを部屋置きする際、少しでもコンパクトにならないかとオーストリッチの輪行袋からヒントを得た方法を紹介します。
 tags:
 - 自転車室内保管

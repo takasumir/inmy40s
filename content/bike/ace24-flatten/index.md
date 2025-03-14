@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:37+09:00"
 draft: false
-image: images/IMG_20200220_100750.jpg
+images: 
+- images/IMG_20200220_100750.jpg
 summary: 子供用の自転車 Fuji ACE24の前輪がパンクしたのでチューブ交換し修理しました。
 tags:
 - Fuji ACE24

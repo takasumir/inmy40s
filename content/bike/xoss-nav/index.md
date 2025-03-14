@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:44:04+09:00"
 draft: false
-image: images/xoss-nav.webp
+images: 
+- images/xoss-nav.webp
 summary: 激安GPSサイコン XOSS G/G+ を発売する XOSS からナビゲーション機能が付いたGPSサイコンが発売されていました。早速購入し、愛用中の XOSS Gと比較しながらレビューします。
 tags:
 - XOSS

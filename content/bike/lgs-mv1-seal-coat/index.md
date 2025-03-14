@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T22:23:58+09:00"
 draft: false
-image: images/IMG_4399.JPG
+images: 
+- images/IMG_4399.JPG
 summary: 経年劣化で黒塗装が白っぽくなってしまったルイガノLGS-MV1のフロントキャリアをKUREシールコートを塗装したらツヤが復活しました。
 tags:
 - KURE シールコート

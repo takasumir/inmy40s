@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:55+09:00"
 draft: false
-image: images/DSCF3063.JPG
+images: 
+- images/DSCF3063.JPG
 summary: 子供が使っている自転車、Fuji ACE24のバーテープがぼろぼろになっていました。カーボン調の安いバーテープを購入して交換してみました。
 tags:
 - バーテープ

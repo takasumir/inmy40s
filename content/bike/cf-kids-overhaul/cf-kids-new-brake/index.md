@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:43+09:00"
 draft: false
-image: images/IMG_20200428_080509.jpg
+images: 
+- images/IMG_20200428_080509.jpg
 summary: 子供用自転車クロスファイヤーキッズのフロントブレーキが錆びてきたのでブレーキ一式を交換しました。
 tags:
 - クロスファイヤーキッズ

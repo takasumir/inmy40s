@@ -5,7 +5,8 @@ categories:
 - CAD
 date: "2025-02-15T23:42:51+09:00"
 draft: false
-image: images/lanthern.jpg
+images: 
+- images/lanthern.jpg
 summary: レトロな見た目が素晴らしいキャンプ用ランタン、Petromax HK500のガラスホヤが割れてしまいました。割れ防止にとDIYでガラスホヤの入れ物を作りました。
 tags:
 - ランタン

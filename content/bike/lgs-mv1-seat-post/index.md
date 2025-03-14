@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:58+09:00"
 draft: false
-image: images/DSCF3028.jpg
+images: 
+- images/DSCF3028.jpg
 summary: AliExpressで購入したZITTOというメーカーの格安アルミシートポストをルイガノLGS-MV1に取付けました。
 tags:
 - シートポスト

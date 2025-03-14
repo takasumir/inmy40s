@@ -3,7 +3,8 @@ categories:
 - DIY
 date: "2025-02-15T23:43:03+09:00"
 draft: false
-image: images/170.jpg
+images: 
+- images/170.jpg
 summary: テレビ下のスペース確保と掃除をしやすくするため、単管パイプとモニタアームを使いテレビをテレビ台から少し浮かせて固定してみました。
 tags:
 - 単管パイプ

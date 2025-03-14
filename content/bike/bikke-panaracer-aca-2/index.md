@@ -2,7 +2,8 @@
 title: 'Panaracer 英式→米式変換アダプター'
 date: 2025-02-15T10:10:42+09:00
 draft: false
-image: 'images/DSCF4540.JPG'
+images: 
+- 'images/DSCF4540.JPG'
 summary: '子乗せ用自転車bikkeにPanaracerの英式→米式変換アダプターを付けてみました。タイヤ空気圧が測れるようになり、ポンピングも楽になりました。虫ゴムが無いので虫ゴム劣化によるパンクリスクもなくなるためおすすめです。'
 categories:
 - 自転車

@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:40+09:00"
 draft: false
-image: images/IMG_4976.JPG
+images: 
+- images/IMG_4976.JPG
 summary: クロスファイヤーキッズのペダル軸がサビサビなのでペダル交換しました。ペダルの老舗メーカー、三ヶ島製作所のペダルを購入し、交換しました。
 tags:
 - 自転車

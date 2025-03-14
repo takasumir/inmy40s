@@ -3,7 +3,8 @@ categories:
 - ソフトウェア
 date: "2025-02-15T23:42:45+09:00"
 draft: false
-image: images/lintalistbw.png
+images: 
+- images/lintalistbw.png
 summary: 定形文を挿入できる便利ツール、Lintalistをさらに使いこなし、選択範囲をHTMLタグで囲む際、タグの種類を選べるように設定しました。
 tags:
 - PC

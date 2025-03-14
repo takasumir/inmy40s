@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:56+09:00"
 draft: false
-image: images/DSCF0485.JPG
+images: 
+- images/DSCF0485.JPG
 summary: 大阪の自転車道の中で、大阪市役所前から万博記念公園まで、北摂地区を南北につなぐ北大阪サイクルラインを走ってみました。
 tags:
 - Madone2.1

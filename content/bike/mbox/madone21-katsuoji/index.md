@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:50+09:00"
 draft: false
-image: images/My+Post.jpg
+images: 
+- images/My+Post.jpg
 summary: 残暑厳しい中、2年ぶりにロードバイクを引っ張り出して乗ってみることにしました。ルートは南千里公園から北上し箕面大滝、勝尾寺のだるまを見て戻るコースです。
 tags:
 - 勝尾寺

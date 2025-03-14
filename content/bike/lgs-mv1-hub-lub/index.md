@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:38+09:00"
 draft: false
-image: images/IMG_20200209_101153.jpg
+images: 
+- images/IMG_20200209_101153.jpg
 summary: 自転車通勤で毎日酷使しているLGS-MV1のハブのグリスアップをしました。ハブのベアリングへのアクセスの、玉押し調整のやり方をまとめました。
 tags:
 - LGS-MV1

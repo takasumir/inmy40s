@@ -5,7 +5,8 @@ categories:
 - 川遊び
 date: "2025-02-15T23:42:54+09:00"
 draft: false
-image: images/IMG_5177.jpg
+images: 
+- images/IMG_5177.jpg
 summary: 田辺川湯キャンプ場でキャンプをしました。川から温泉が湧き出て、寒くなったら温泉で温まれる。さらに水は最高にきれいで魚もたくさんいるという、今まで川遊びした中で最高の場所でした。
 tags:
 - キャンプ場

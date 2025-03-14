@@ -3,7 +3,8 @@ categories:
 - DIY
 date: "2025-02-15T23:42:50+09:00"
 draft: false
-image: images/IMG_20200807_130153.jpg
+images: 
+- images/IMG_20200807_130153.jpg
 summary: おしゃれなゴミ箱、IKEAのKNODD。かわいらしい外観ですがそこそこ大きく移動が不便なのでホームセンターで車輪を買ってDIYで付けてみました。
 tags:
 - IKEA

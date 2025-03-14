@@ -1,0 +1,48 @@
+<header class="mb-8">
+  <div class="relative">
+    {{- $img := .Resources.Get (index .Params.images 0) -}}
+    {{- if $img -}}
+      {{- if eq $img.MediaType.SubType "svg" -}}
+        <img
+          class="max-h-[67.5ch] object-cover mx-auto object-contain"
+          src="{{ $img.RelPermalink | safeURL }}"
+          alt="featured image"
+        />
+      {{- else -}}
+        {{- $small := $img.Fit "480x480 webp" -}}
+        {{- $medium := $img.Fit "768x768 webp" -}}
+        {{- $large := $img.Fit "1024x1024 webp" -}}
+        {{- $original := $img.RelPermalink -}}
+        <img
+          class="max-h-[67ch] object-cover mx-auto object-contain"
+          width="{{ $img.Width }}"
+          height="{{ $img.Height }}"
+          srcset="
+            {{ $small.RelPermalink }}  480w,
+            {{ $medium.RelPermalink }}  768w,
+            {{ $large.RelPermalink }} 1024w
+          "
+          src="{{ $original }}"
+          alt="featured image"
+          {{- with .Title }}title="{{ . }}"{{- end -}}
+        />
+      {{- end -}}
+    {{- end -}}
+    <h1
+      class="text-3xl tracking-tight text-black font-bold w-full text-center py-6 absolute top-[50%] translate-y-[-50%] bg-[rgba(255,255,255,0.8)]"
+    >
+      {{ .Title }}
+    </h1>
+  </div>
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  <time datetime="{{ $dateMachine }}" class="mb-4">{{ $dateHuman }}</time>
+  {{- with .Lastmod -}}
+    {{ $lastModMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $lastModHuman := . | time.Format ":date_long" }}
+    Lastmod:
+    <time datetime="{{ $lastModMachine }}" class="mb-4"
+      >{{ $lastModHuman }}</time
+    >
+  {{- end -}}
+</header>

@@ -3,7 +3,8 @@ categories:
 - CAD
 date: "2025-02-15T23:42:26+09:00"
 draft: false
-image: images/icad.svg
+images: 
+- images/icad.svg
 summary: iCAD/SXで右クリックしながらドラッグするとお気に入りボックスが表示されますが、2次元設計で便利なポップアップメニューを表示するカスタマイズ方法を解説します。
 tags:
 - iCAD/SX

@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:43:01+09:00"
 draft: false
-image: images/IMG_20201123_173042.jpg
+images: 
+- images/IMG_20201123_173042.jpg
 summary: 明るくて目立つ中華ライトを面白半分で購入してみました。Giyo製ヘッドライトは明るくいい感じです。カラフルに点滅するDeemount製テールライトは自己主張が激しいです。
 tags:
 - ライト

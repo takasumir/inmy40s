@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:57+09:00"
 draft: false
-image: images/XOSS.webp
+images: 
+- images/XOSS.webp
 summary: 激安GPSサイコン XOSS Gを買ってみました。ガーミンなど有名なメーカー品に比べて圧倒的な安さですが、果たして性能はどうなのか！？レビューします。
 tags:
 - GPSサイコン

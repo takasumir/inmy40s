@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:29+09:00"
 draft: false
-image: images/IMG_4621.JPG
+images: 
+- images/IMG_4621.JPG
 summary: サドル、グリップに革張りをしていましたが外に保管していると劣化が激しくボロボロになってきたのでグリップを交換しました。
 tags:
 - グリップ交換

@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:59+09:00"
 draft: false
-image: images/shine.jpg
+images: 
+- images/shine.jpg
 summary: 汚れたロードバイクをカーシャンプーとカーワックスを使い丸洗い＆ワックスがけをしました。カー用品を使うと量が多くコスパが良いです。
 tags:
 - 洗車

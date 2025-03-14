@@ -4,7 +4,8 @@ categories:
 - キャンプ
 date: "2025-02-15T23:42:48+09:00"
 draft: false
-image: images/IMG_5055.JPG
+images: 
+- images/IMG_5055.JPG
 summary: 日本海の綺麗な海の前でキャンプがしたくて弁天浜キャンプ場に行ってきました。
 tags:
 - 弁天浜

@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T22:56:06+09:00"
 draft: false
-image: images/IMG_4443.JPG
+images: 
+- images/IMG_4443.JPG
 summary: ロードバイクに採用されている剛性の高いクランク軸の規格であるホローテック。通勤自転車のミニベロ ルイガノ LGS-M１のボトムブラケットを交換しホローテック化してみました。効果はいかに！？
 tags:
 - ホローテック化

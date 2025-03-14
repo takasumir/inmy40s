@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:43+09:00"
 draft: false
-image: images/IMG_20200412_064112.jpg
+images: 
+- images/IMG_20200412_064112.jpg
 summary: 屋外保管で雨ざらしになり各種ボルトが錆びてしまったクロスファイヤーキッズ。ステンレス製のボルトに交換し、新品同様に復活しました。
 tags:
 - クロスファイヤーキッズ

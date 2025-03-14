@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:36+09:00"
 draft: false
-image: images/rustybolts.jpg
+images: 
+- images/rustybolts.jpg
 summary: 屋根の無い屋外で雨ざらしで保管している自転車のボルトが錆びてしまいました。錆び止め効果のあるアサヒペンの塗料でボルト頭を塗装したところ、屋外で約2年4ヶ月経過しても全く錆びず優秀です！
 tags:
 - 錆

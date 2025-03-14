@@ -29,3 +29,6 @@ hasCJKLanguage = true
       wrapStandAloneImageWithinParagraph = false
       [markup.goldmark.parser.attribute]
         block = true
+
+[Params]
+description = "自転車の改造ネタ、大阪を中心としたポタリングコース紹介などを中心に、ライフハックなどの雑記も書いていきます。"

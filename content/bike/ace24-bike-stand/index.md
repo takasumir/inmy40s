@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:27+09:00"
 draft: false
-image: images/IMG_4453_01.jpg
+images: 
+- images/IMG_4453_01.jpg
 summary: 子供の自転車にFuji ACE24を買いましたがスタンドが付いていないのでAmazonで購入し、DIYで付けてみました。
 tags:
 - スタンド

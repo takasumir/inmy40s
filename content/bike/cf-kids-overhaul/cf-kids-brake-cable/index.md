@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:50+09:00"
 draft: false
-image: images/IMG_20200807_110248.jpg
+images: 
+- images/IMG_20200807_110248.jpg
 summary: 子供用自転車クロスファイヤーキッズのブレーキケーブルを交換しました。ブレーキケーブル交換方法をまとめます。
 tags:
 - クロスファイヤーキッズ

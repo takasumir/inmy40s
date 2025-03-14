@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:47+09:00"
 draft: false
-image: images/IMG_20200621_074453.jpg
+images: 
+- images/IMG_20200621_074453.jpg
 summary: 子ども用ロードバイクが頻繁にパンクするため、パンク防止としてチューブに注入する液体のパンク防止剤、EVERSのスーパーシーラントを試しました。
 tags:
 - パンク

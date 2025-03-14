@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:40+09:00"
 draft: false
-image: images/IMG_20200315_081226.jpg
+images: 
+- images/IMG_20200315_081226.jpg
 summary: 錆びてしまった子ども用自転車のペダル軸部分に黒錆転換剤を塗って黒錆にしました。錆はすぐに反応せず、失敗したかと思いましたが5日後に黒に近い焦げ茶色までゆっくりと変色していきました。
 tags:
 - LGS-J12

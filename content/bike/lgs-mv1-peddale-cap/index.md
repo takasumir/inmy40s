@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:54+09:00"
 draft: false
-image: images/IMG_20201024_163849.jpg
+images: 
+- images/IMG_20201024_163849.jpg
 summary: ルイガノLGS-MV1のペダルを三ヶ島(MKS)のSYLVANTOURINGに交換後、ふと気がつくとペダルキャップが無くなっていました。ベアリングをグリスアップし、新品のキャップを取付けました。
 tags:
 - LGS-MV1

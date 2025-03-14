@@ -3,7 +3,8 @@ categories:
 - 車
 date: "2025-02-15T23:42:58+09:00"
 draft: false
-image: images/IMG_20201128_114025.jpg
+images: 
+- images/IMG_20201128_114025.jpg
 summary: 今年も冬が近づいてきました。温暖化で雪が降らなくなってきたかと思いきや、突然寒くなり雪が降ることもあるため、早めにDIYでスタッドレスタイヤに交換しました。
 tags:
 - クロスオーバー7

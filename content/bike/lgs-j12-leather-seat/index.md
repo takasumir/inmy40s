@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:14:52+09:00"
 draft: false
-image: images/IMG_3560_01.jpg
+images: 
+- images/IMG_3560_01.jpg
 summary: 子供用自転車のルイガノLGS-J12のサドルをレザーシートで張り替えてみました。
 tags:
 - サドル

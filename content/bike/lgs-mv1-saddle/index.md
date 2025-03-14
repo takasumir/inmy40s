@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:53+09:00"
 draft: false
-image: images/IMG_5261-1.jpg
+images: 
+- images/IMG_5261-1.jpg
 summary: ルイガノLGS-MV1にAliexpressで購入した格安軽量サドルを取付ました。
 tags:
 - LGS-MV1

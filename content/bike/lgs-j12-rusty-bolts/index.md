@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:39+09:00"
 draft: false
-image: images/IMG_20200320_164217.jpg
+images: 
+- images/IMG_20200320_164217.jpg
 summary: ルイガノ LGS-J12 ハンドル固定ボルトが錆びたので新品に交換しました。錆びにくいステンレスボルトにエーゼットの長期防錆オイルを塗って錆止めします。
 tags:
 - LGS-J12

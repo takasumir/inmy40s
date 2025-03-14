@@ -4,7 +4,8 @@ categories:
 - 釣り
 date: "2025-02-15T23:42:47+09:00"
 draft: false
-image: images/IMG_20200613_110324.jpg
+images: 
+- images/IMG_20200613_110324.jpg
 summary: スピニングリールの動きが固くなってしまったので分解してグリスアップしました。
 tags:
 - スピニングリール

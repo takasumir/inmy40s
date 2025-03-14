@@ -4,7 +4,8 @@ categories:
 - キャンプ
 date: "2025-02-15T23:42:51+09:00"
 draft: false
-image: images/tenkitenki.jpg
+images: 
+- images/tenkitenki.jpg
 summary: 京都の日本海側、てんきてんき村オートキャンプ場に行きました。海に浮かぶ巨大な一枚岩、立岩が眼の前にあります。海の中にプールを作ってしまった間人親水プールも楽しく遊べおすすめです。
 tags:
 - 海

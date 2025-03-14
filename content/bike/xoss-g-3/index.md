@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:55+09:00"
 draft: false
-image: images/XOSS.webp
+images: 
+- images/XOSS.webp
 summary: 激安GPSサイコンを購入、自転車へ取付けアプリもインストールし STRAVAへの接続と一通り準備が整ったので早速使ってみます。
 tags:
 - XOSS

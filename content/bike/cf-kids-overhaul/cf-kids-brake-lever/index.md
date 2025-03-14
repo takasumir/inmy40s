@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:44+09:00"
 draft: false
-image: images/DSCF0026.jpg
+images: 
+- images/DSCF0026.jpg
 summary: クロスファイヤーキッズの錆びついたブレーキレバーを交換しました。ハンドルバーの径がΦ19mmと細いです。Φ22.2mmのブレーキレバーはたくさん種類があるのですが、Φ19mm は TEKTRO JL530C-RS くらいしか選択肢がありませんでした。
 tags:
 - クロスファイヤーキッズ

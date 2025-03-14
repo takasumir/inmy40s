@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:43:00+09:00"
 draft: false
-image: images/FHD0023.JPG
+images: 
+- images/FHD0023.JPG
 summary: なにわ自転車道とは、大阪の神崎川と淀川に囲まれた領域を出来島大橋から赤川鉄橋まで川沿いに走るコースです。今回は榎木橋を起点とし、淀川河口を含めた淀川三区一周しました。
 tags:
 - Madon2.1

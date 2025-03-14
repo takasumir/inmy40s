@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:56+09:00"
 draft: false
-image: images/DSCF0423.JPG
+images: 
+- images/DSCF0423.JPG
 summary: 毛馬閘門から北河内サイクルラインに沿って淀川を北上し石清水八幡宮まで足を伸ばしてみることにしました。
 tags:
 - サイクリング

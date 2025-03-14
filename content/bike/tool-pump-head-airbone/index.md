@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:44+09:00"
 draft: false
-image: images/IMG_20200427_172150.jpg
+images: 
+- images/IMG_20200427_172150.jpg
 summary: 自転車の米式、仏式バルブ両方に1つの口で対応でき、独自の着脱方法を採用するairboneのポンプヘッドを試しました。レバーが無く指が挟まれ痛い問題が解決し大満足です。
 tags:
 - 米式バルブ

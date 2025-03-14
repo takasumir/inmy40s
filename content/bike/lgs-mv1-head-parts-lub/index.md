@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T23:42:39+09:00"
 draft: false
-image: images/IMG_20200301_130252s.jpg
+images: 
+- images/IMG_20200301_130252s.jpg
 summary: ルイガノLGS-MV1のヘッドパーツ部を分解し、ベアリングにグリスアップを行いました。
 tags:
 - LGS-MV1

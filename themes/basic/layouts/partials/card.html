@@ -1,7 +1,7 @@
 <article
   class="my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
 >
-  {{- with .Resources.GetMatch (.Params.image) }}
+  {{- with .Resources.GetMatch (index .Params.images 0) }}
     {{- if eq .MediaType.SubType "svg" -}}
       <img
         class="h-36 w-36 object-cover rounded-xl flex-shrink-0"

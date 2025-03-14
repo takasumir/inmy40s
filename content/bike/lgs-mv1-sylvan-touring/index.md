@@ -4,7 +4,8 @@ categories:
 - bike
 date: "2025-02-15T22:34:09+09:00"
 draft: false
-image: images/IMG_4401.JPG
+images: 
+- images/IMG_4401.JPG
 summary: 自転車のペダルの回転が渋くなってきたので交換しました。MKS（三ヶ島）のSYLVAN TOURINGは金属製で高級感がありベアリング部のカバーを開けてメンテでき、長く付き合えそうなペダルです。
 tags:
 - ペダル
