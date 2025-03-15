@@ -2,11 +2,11 @@
   {{ $title := .LinkTitle }}
   {{ $summary := .Params.summary }}
   {{ $href := .RelPermalink }}
-  {{ with (.Resources.GetMatch (.Params.image)) }}
+  {{ with (.Resources.GetMatch (index .Params.images 0)) }}
     {{- $small := .Fill "144x144 webp" -}}
     {{- $medium := .Fill "288x288 webp" -}}
     <article
-      class="my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
+      class="linkcard my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
     >
       <img
         srcset="{{ $small.RelPermalink }} 144w, {{ $medium.RelPermalink }} 288w"

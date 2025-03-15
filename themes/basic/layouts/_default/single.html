@@ -1,9 +1,15 @@
-{{ define "main" }}
+{{- define "main" -}}
   <article class="sm:p-2">
-    {{ partial "single-post-header.html" . }}
+    {{- partial "single-post-header.html" . -}}
     <div class="markdown my-2">
-      {{ .Content }}
+      {{- .Content -}}
     </div>
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    {{- partial "terms.html" (dict "taxonomy" "tags" "page" .) -}}
   </article>
-{{ end }}
+  {{- with site.RegularPages.Related . | first 5 -}}
+    <h2 class="font-sans tracking-tight text-2xl font-bold">関連記事</h2>
+    {{- range . -}}
+      {{- partial "card" . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}

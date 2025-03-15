@@ -1,4 +1,4 @@
-.markdown {
+.markdown:not(> linkcard) {
   @apply text-gray-900 font-sans;
 
   h1,

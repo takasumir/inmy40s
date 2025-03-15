@@ -2,9 +2,18 @@
   @apply flex items-center justify-center gap-x-2;
 
   .page-item {
-    @apply min-h-9.5 min-w-9.5 py-2 px-2.5 inline-flex justify-center items-center gap-x-2 rounded-lg text-gray-800;
+    @apply min-h-9.5 min-w-9.5 inline-flex gap-x-2 rounded-lg text-gray-800;
   }
   .page-item:not(.disabled, .active) {
     @apply hover:bg-gray-100 focus:outline-hidden focus:bg-gray-100;
+  }
+  .page-item.active {
+    @apply bg-gray-100;
+  }
+  .page-item.disabled {
+    @apply text-gray-300;
+  }
+  .page-link {
+    @apply flex items-center justify-center w-full;
   }
 }
