@@ -61,3 +61,11 @@ description = "自転車の改造ネタ、大阪を中心としたポタリン�
     toLower = false
     type = 'basic'
     weight = 80
+  [[related.indices]]
+    applyFilter = false
+    cardinalityThreshold = 0
+    name = 'categories'
+    pattern = ''
+    toLower = false
+    type = 'basic'
+    weight = 80

@@ -1,4 +1,4 @@
-.markdown:not(> linkcard) {
+.markdown {
   @apply text-gray-900 font-sans;
 
   h1,
@@ -33,6 +33,8 @@
     @apply text-sm font-bold;
   }
 
+  img + h2,
+  img + h3,
   p + h2,
   p + h3,
   ul + h2,
@@ -120,5 +122,9 @@
 
   .pa a {
     @apply text-white font-bold no-underline;
+  }
+
+  .linkcard a {
+    @apply text-gray-900 font-normal no-underline;
   }
 }
