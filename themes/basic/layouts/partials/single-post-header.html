@@ -24,7 +24,7 @@
           "
           src="{{ $original }}"
           alt="featured image"
-          {{- with .Title }}title="{{ . }}"{{- end -}}
+          {{ with .Title }}title="{{ . }}"{{- end -}}
         />
       {{- end -}}
     {{- end -}}
@@ -34,12 +34,12 @@
       {{ .Title }}
     </h1>
   </div>
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
+  {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+  {{- $dateHuman := .Date | time.Format ":date_long" -}}
   <time datetime="{{ $dateMachine }}" class="mb-4">{{ $dateHuman }}</time>
   {{- with .Lastmod -}}
-    {{ $lastModMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $lastModHuman := . | time.Format ":date_long" }}
+    {{- $lastModMachine := . | time.Format "2006-01-02T15:04:05-07:00" -}}
+    {{- $lastModHuman := . | time.Format ":date_long" -}}
     Lastmod:
     <time datetime="{{ $lastModMachine }}" class="mb-4"
       >{{ $lastModHuman }}</time

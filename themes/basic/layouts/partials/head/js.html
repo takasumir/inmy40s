@@ -15,13 +15,23 @@
   {{- end }}
 {{- end }}
 
-{{- with resources.Get .Page.Params.js }}
+{{- with resources.Get .Page.Params.js -}}
+  {{ print .Name }}
+  {{ print (getenv "HUGO_GMAP_API_KEY") -}}
+  {{- $opts := "" -}}
+  {{- $apiKey := "" -}}
+  {{- if eq .Name "/js/gmap.ts" -}}
+    {{- print "true" -}}
+    {{- $apiKey = getenv "HUGO_GMAP_API_KEY" -}}
+    {{- $opts = dict "params" (dict "apiKey" $apiKey) -}}
+  {{- end -}}
   {{- if eq hugo.Environment "development" }}
-    {{- with . | js.Build }}
+    {{ print $opts }}
+    {{- with . | js.Build $opts }}
       <script defer src="{{ .RelPermalink }}"></script>
     {{- end }}
   {{- else }}
-    {{- $opts := dict "minify" true }}
+    {{- $opts := merge (dict "minify" true) $opts }}
     {{- with . | js.Build $opts | fingerprint }}
       <script
         defer

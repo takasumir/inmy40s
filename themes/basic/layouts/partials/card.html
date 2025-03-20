@@ -4,7 +4,7 @@
   {{- with .Resources.GetMatch (index .Params.images 0) }}
     {{- if eq .MediaType.SubType "svg" -}}
       <img
-        class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
+        class="h-36 w-36 object-cover rounded-lg flex-shrink-0"
         src="{{ .RelPermalink | safeURL }}"
         alt="featured image"
       />
@@ -15,7 +15,7 @@
         srcset="{{ $small.RelPermalink }} 144w, {{ $medium.RelPermalink }} 288w"
         src="{{ $small.RelPermalink }}"
         alt="featured image"
-        class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
+        class="h-36 w-36 object-cover rounded-lg flex-shrink-0"
         width="192"
         height="192"
       />
