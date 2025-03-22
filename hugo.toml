@@ -3,12 +3,29 @@ languageCode = 'ja-jp'
 title = 'In my 40s'
 theme = 'basic'
 hasCJKLanguage = true
+timeout = '120s'
 
 [build]
+  [build.buildStats]
+    enable = true
   [[build.cachebusters]]
     source = 'layouts/.*'
     target = 'css'
-
+  [[build.cachebusters]]
+    source = 'assets/notwatching/hugo_stats\.json'
+    target = 'css'
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = 'css'
+[module]
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+  [[module.mounts]]
+    disableWatch = true
+    source = 'hugo_stats.json'
+    target = 'assets/notwatching/hugo_stats.json'
+    
 [menus]
   [[menus.main]]
     name = 'Home'

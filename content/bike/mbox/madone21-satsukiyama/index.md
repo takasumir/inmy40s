@@ -5,7 +5,7 @@ categories:
 date: "2025-02-15T23:42:53+09:00"
 draft: false
 images: 
-- images/satsukiyama.webp
+- images/DSCF0290.JPG
 summary: 大阪北摂のヒルクライム入門コースと言われる五月山に自転車で登りました。いきなりつらい坂道は即敗退しましたが、箕面川ダム、勝尾寺を経て一周しました。
 tags:
 - サイクリング
