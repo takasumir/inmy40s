@@ -1,0 +1,65 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": { "lng": 133.627935978103, "lat": 34.20124689659076 },
+        "type": "Point"
+      },
+      "properties": {
+        "description": "つたじま海水浴場",
+        "name": "つたじま海水浴場",
+        "html": "<img alt=\"つたじま海水浴場\" width=\"120\" height=\"80\" src=\"images/08s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": { "lng": 134.70474262274828, "lat": 34.24580181198886 },
+        "type": "Point"
+      },
+      "properties": {
+        "description": "休暇村南淡路",
+        "name": "休暇村南淡路",
+        "html": "<img alt=\"休暇村南淡路\" width=\"120\" height=\"80\" src=\"images/10s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": { "lng": 135.0229538103433, "lat": 34.58718163769705 },
+        "type": "Point"
+      },
+      "properties": {
+        "description": "岩屋海水浴場",
+        "name": "岩屋海水浴場",
+        "html": "<img alt=\"岩屋海水浴場\" width=\"120\" height=\"80\" src=\"images/16s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": { "lng": 134.71921409178802, "lat": 34.25564736924341 },
+        "type": "Point"
+      },
+      "properties": {
+        "description": "うずしおクルーズ",
+        "name": "うずしおクルーズ",
+        "html": "<img alt=\"うずしおクルーズ\" width=\"120\" height=\"80\" src=\"images/12s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": { "lng": 134.66182189050193, "lat": 34.282959302063205 },
+        "type": "Point"
+      },
+      "properties": {
+        "description": "緑の道しるべ 阿那賀公園",
+        "name": "緑の道しるべ 阿那賀公園",
+        "html": "<img alt=\"緑の道しるべ 阿那賀公園\" width=\"120\" height=\"80\" src=\"images/14s.webp\"/>"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,5 +1,6 @@
 import * as params from "@params";
-console.log(params.apiKey);
+// console.log(params.apiKey);
+
 // Bootstrap Loader
 ((g) => {
   var h,
@@ -47,6 +48,7 @@ async function initMap(): Promise<void> {
   const { Map } = (await google.maps.importLibrary(
     "maps",
   )) as google.maps.MapsLibrary;
+  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
   mapConts = document.getElementsByClassName("gmap") as Array<HTMLElement>;
   for (mapCont of mapConts) {
     // read map settings form mapCont
@@ -54,12 +56,50 @@ async function initMap(): Promise<void> {
     const geojsondata = await response.json();
     const center = JSON.parse(mapCont.dataset.center);
     const zoom = parseInt(mapCont.dataset.zoom);
-
+    const type = mapCont.dataset.style ?? "46b4720545513a2c";
+    console.log(type);
     map = new Map(mapCont as HTMLElement, {
       center: center,
-      mapTypeId: mapCont.dataset.style ?? "roadmap",
+      mapId: mapCont.dataset.style ?? "46b4720545513a2c",
       zoom: zoom,
     });
+
+    const parser = new DOMParser();
+
+    for (const feature of geojsondata.features) {
+      switch (feature.geometry.type) {
+        case "LineString":
+          console.log("LineString");
+          break;
+
+        case "Point":
+          let pin = null;
+          if ("marker" in feature.properties) {
+            pin = parser.parseFromString(
+              feature.properties.marker,
+              "image/svg+xml",
+            ).documentElement;
+          }
+          const marker = new AdvancedMarkerElement({
+            map,
+            position: feature.geometry.coordinates,
+            content: pin,
+            title: feature.properties.name,
+          });
+          const infowindow = new google.maps.InfoWindow({
+            headerContent: feature.properties.name,
+            content: feature.properties.html,
+            ariaLabel: feature.properties.name,
+          });
+          marker.addListener("click", () => {
+            infowindow.open({
+              anchor: marker,
+              map,
+            });
+          });
+          break;
+      }
+    }
   }
 }
 

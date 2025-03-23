@@ -1,20 +1,20 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <title>
-  {{ if .IsHome }}
-    {{ site.Title }}
-  {{ else }}
-    {{ printf "%s | %s" .Title site.Title }}
-  {{ end }}
+  {{- if .IsHome -}}
+    {{- site.Title -}}
+  {{- else -}}
+    {{- printf "%s | %s" .Title site.Title -}}
+  {{- end -}}
 </title>
-{{ if .IsHome }}
+{{- if .IsHome -}}
   <meta name="description" content="{{ .Site.Params.Description }}" />
-{{ else }}
+{{- else -}}
   <meta name="description" content="{{ .Description | default .Summary }}" />
-{{ end }}
+{{- end -}}
 <link rel="icon" href="/favicon.ico" sizes="32x32" />
 <link rel="icon" href="/icon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-{{ template "_internal/opengraph.html" . }}
-{{ partial "head/css.html" . }}
-{{ partial "head/js.html" . }}
+{{- template "_internal/opengraph.html" . -}}
+{{- partial "head/css.html" . -}}
+{{- partial "head/js.html" . -}}
