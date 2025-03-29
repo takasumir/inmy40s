@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.0" creator="GPSBabel - https://www.gpsbabel.org" xmlns="http://www.topografix.com/GPX/1/0">
+  <time>2025-03-29T11:42:13.903Z</time>
+  <bounds minlat="34.363238100" minlon="135.853766500" maxlat="34.375491100" maxlon="135.863925500"/>
+  <wpt lat="34.364736900" lon="135.862492700">
+    <name>駐車場</name>
+    <cmt>駐車場</cmt>
+    <desc>駐車場</desc>
+  </wpt>
+  <wpt lat="34.367191445" lon="135.861985504">
+    <name>吉水神社</name>
+    <cmt>吉水神社</cmt>
+    <desc>吉水神社</desc>
+  </wpt>
+  <wpt lat="34.368417380" lon="135.858859100">
+    <name>金峯山寺蔵王堂</name>
+    <cmt>金峯山寺蔵王堂</cmt>
+    <desc>金峯山寺蔵王堂</desc>
+  </wpt>
+  <wpt lat="34.367942133" lon="135.855142328">
+    <name>脳天大神</name>
+    <cmt>脳天大神</cmt>
+    <desc>脳天大神</desc>
+  </wpt>
+  <wpt lat="34.363243100" lon="135.861372800">
+    <name>ゴール</name>
+    <cmt>ゴール</cmt>
+    <desc>ゴール</desc>
+  </wpt>
+  <rte>
+    <name>吉野山</name>
+    <rtept lat="34.364201300" lon="135.862425200">
+      <ele>0.000</ele>
+      <name>RPT001</name>
+    </rtept>
+    <rtept lat="34.364736900" lon="135.862492700">
+      <ele>0.000</ele>
+      <name>RPT002</name>
+    </rtept>
+    <rtept lat="34.364941200" lon="135.862417500">
+      <ele>0.000</ele>
+      <name>RPT003</name>
+    </rtept>
+    <rtept lat="34.365101600" lon="135.862303500">
+      <ele>0.000</ele>
+      <name>RPT004</name>
+    </rtept>
+    <rtept lat="34.365237800" lon="135.862154600">
+      <ele>0.000</ele>
+      <name>RPT005</name>
+    </rtept>
+    <rtept lat="34.365382600" lon="135.862012600">
+      <ele>0.000</ele>
+      <name>RPT006</name>
+    </rtept>
+    <rtept lat="34.365521400" lon="135.861860300">
+      <ele>0.000</ele>
+      <name>RPT007</name>
+    </rtept>
+    <rtept lat="34.365696500" lon="135.861774000">
+      <ele>0.000</ele>
+      <name>RPT008</name>
+    </rtept>
+    <rtept lat="34.365808900" lon="135.861602300">
+      <ele>0.000</ele>
+      <name>RPT009</name>
+    </rtept>
+    <rtept lat="34.365953200" lon="135.861459700">
+      <ele>0.000</ele>
+      <name>RPT010</name>
+    </rtept>
+    <rtept lat="34.366018300" lon="135.861243500">
+      <ele>0.000</ele>
+      <name>RPT011</name>
+    </rtept>
+    <rtept lat="34.366176000" lon="135.861093800">
+      <ele>0.000</ele>
+      <name>RPT012</name>
+    </rtept>
+    <rtept lat="34.366289500" lon="135.860912700">
+      <ele>0.000</ele>
+      <name>RPT013</name>
+    </rtept>
+    <rtept lat="34.366295600" lon="135.860690700">
+      <ele>0.000</ele>
+      <name>RPT014</name>
+    </rtept>
+    <rtept lat="34.366450600" lon="135.860565500">
+      <ele>0.000</ele>
+      <name>RPT015</name>
+    </rtept>
+    <rtept lat="34.366306500" lon="135.860714300">
+      <ele>0.000</ele>
+      <name>RPT016</name>
+    </rtept>
+    <rtept lat="34.366502700" lon="135.860753500">
+      <ele>0.000</ele>
+      <name>RPT017</name>
+    </rtept>
+    <rtept lat="34.366669300" lon="135.860637200">
+      <ele>0.000</ele>
+      <name>RPT018</name>
+    </rtept>
+    <rtept lat="34.366820000" lon="135.860478100">
+      <ele>0.000</ele>
+      <name>RPT019</name>
+    </rtept>
+    <rtept lat="34.366967100" lon="135.860339800">
+      <ele>0.000</ele>
+      <name>RPT020</name>
+    </rtept>
+    <rtept lat="34.367135300" lon="135.860231900">
+      <ele>0.000</ele>
+      <name>RPT021</name>
+    </rtept>
+    <rtept lat="34.367266400" lon="135.860069600">
+      <ele>0.000</ele>
+      <name>RPT022</name>
+    </rtept>
+    <rtept lat="34.367389600" lon="135.859908600">
+      <ele>0.000</ele>
+      <name>RPT023</name>
+    </rtept>
+    <rtept lat="34.367468500" lon="135.859707400">
+      <ele>0.000</ele>
+      <name>RPT024</name>
+    </rtept>
+    <rtept lat="34.367591700" lon="135.859541200">
+      <ele>0.000</ele>
+      <name>RPT025</name>
+    </rtept>
+    <rtept lat="34.367698500" lon="135.859354400">
+      <ele>0.000</ele>
+      <name>RPT026</name>
+    </rtept>
+    <rtept lat="34.367881700" lon="135.859333500">
+      <ele>0.000</ele>
+      <name>RPT027</name>
+    </rtept>
+    <rtept lat="34.368064100" lon="135.859261600">
+      <ele>0.000</ele>
+      <name>RPT028</name>
+    </rtept>
+    <rtept lat="34.368197100" lon="135.859096500">
+      <ele>0.000</ele>
+      <name>RPT029</name>
+    </rtept>
+    <rtept lat="34.368434400" lon="135.858936100">
+      <ele>0.000</ele>
+      <name>RPT030</name>
+    </rtept>
+    <rtept lat="34.368672600" lon="135.858792800">
+      <ele>0.000</ele>
+      <name>RPT031</name>
+    </rtept>
+    <rtept lat="34.368433100" lon="135.858902200">
+      <ele>0.000</ele>
+      <name>RPT032</name>
+    </rtept>
+    <rtept lat="34.368256900" lon="135.858993200">
+      <ele>0.000</ele>
+      <name>RPT033</name>
+    </rtept>
+    <rtept lat="34.368159000" lon="135.858800800">
+      <ele>0.000</ele>
+      <name>RPT034</name>
+    </rtept>
+    <rtept lat="34.368089800" lon="135.858592000">
+      <ele>0.000</ele>
+      <name>RPT035</name>
+    </rtept>
+    <rtept lat="34.368061000" lon="135.858375000">
+      <ele>0.000</ele>
+      <name>RPT036</name>
+    </rtept>
+    <rtept lat="34.367970600" lon="135.858165400">
+      <ele>0.000</ele>
+      <name>RPT037</name>
+    </rtept>
+    <rtept lat="34.367979300" lon="135.857945900">
+      <ele>0.000</ele>
+      <name>RPT038</name>
+    </rtept>
+    <rtept lat="34.368108200" lon="135.857771000">
+      <ele>0.000</ele>
+      <name>RPT039</name>
+    </rtept>
+    <rtept lat="34.368102200" lon="135.857545000">
+      <ele>0.000</ele>
+      <name>RPT040</name>
+    </rtept>
+    <rtept lat="34.368101400" lon="135.857320500">
+      <ele>0.000</ele>
+      <name>RPT041</name>
+    </rtept>
+    <rtept lat="34.368045900" lon="135.857107100">
+      <ele>0.000</ele>
+      <name>RPT042</name>
+    </rtept>
+    <rtept lat="34.368056300" lon="135.856887600">
+      <ele>0.000</ele>
+      <name>RPT043</name>
+    </rtept>
+    <rtept lat="34.367973000" lon="135.856690500">
+      <ele>0.000</ele>
+      <name>RPT044</name>
+    </rtept>
+    <rtept lat="34.367883600" lon="135.856489000">
+      <ele>0.000</ele>
+      <name>RPT045</name>
+    </rtept>
+    <rtept lat="34.367847000" lon="135.856264300">
+      <ele>0.000</ele>
+      <name>RPT046</name>
+    </rtept>
+    <rtept lat="34.367798400" lon="135.856050200">
+      <ele>0.000</ele>
+      <name>RPT047</name>
+    </rtept>
+    <rtept lat="34.367835100" lon="135.855836300">
+      <ele>0.000</ele>
+      <name>RPT048</name>
+    </rtept>
+    <rtept lat="34.367976600" lon="135.855701100">
+      <ele>0.000</ele>
+      <name>RPT049</name>
+    </rtept>
+    <rtept lat="34.368164000" lon="135.855661800">
+      <ele>0.000</ele>
+      <name>RPT050</name>
+    </rtept>
+    <rtept lat="34.368358400" lon="135.855670100">
+      <ele>0.000</ele>
+      <name>RPT051</name>
+    </rtept>
+    <rtept lat="34.368272300" lon="135.855474100">
+      <ele>0.000</ele>
+      <name>RPT052</name>
+    </rtept>
+    <rtept lat="34.368192200" lon="135.855257000">
+      <ele>0.000</ele>
+      <name>RPT053</name>
+    </rtept>
+    <rtept lat="34.368212600" lon="135.855033200">
+      <ele>0.000</ele>
+      <name>RPT054</name>
+    </rtept>
+    <rtept lat="34.368085800" lon="135.854872200">
+      <ele>0.000</ele>
+      <name>RPT055</name>
+    </rtept>
+    <rtept lat="34.368026000" lon="135.855084400">
+      <ele>0.000</ele>
+      <name>RPT056</name>
+    </rtept>
+    <rtept lat="34.367843000" lon="135.855059500">
+      <ele>0.000</ele>
+      <name>RPT057</name>
+    </rtept>
+    <rtept lat="34.367833800" lon="135.855297400">
+      <ele>0.000</ele>
+      <name>RPT058</name>
+    </rtept>
+    <rtept lat="34.367627000" lon="135.855322500">
+      <ele>0.000</ele>
+      <name>RPT059</name>
+    </rtept>
+    <rtept lat="34.367450400" lon="135.855252300">
+      <ele>0.000</ele>
+      <name>RPT060</name>
+    </rtept>
+    <rtept lat="34.367618500" lon="135.855161900">
+      <ele>0.000</ele>
+      <name>RPT061</name>
+    </rtept>
+    <rtept lat="34.367815300" lon="135.855178100">
+      <ele>0.000</ele>
+      <name>RPT062</name>
+    </rtept>
+    <rtept lat="34.368002000" lon="135.855167100">
+      <ele>0.000</ele>
+      <name>RPT063</name>
+    </rtept>
+    <rtept lat="34.367756700" lon="135.855398700">
+      <ele>0.000</ele>
+      <name>RPT064</name>
+    </rtept>
+    <rtept lat="34.367596500" lon="135.855538100">
+      <ele>0.000</ele>
+      <name>RPT065</name>
+    </rtept>
+    <rtept lat="34.367656600" lon="135.855323300">
+      <ele>0.000</ele>
+      <name>RPT066</name>
+    </rtept>
+    <rtept lat="34.367856800" lon="135.855392100">
+      <ele>0.000</ele>
+      <name>RPT067</name>
+    </rtept>
+    <rtept lat="34.367708800" lon="135.855195700">
+      <ele>0.000</ele>
+      <name>RPT068</name>
+    </rtept>
+    <rtept lat="34.367678600" lon="135.854981300">
+      <ele>0.000</ele>
+      <name>RPT069</name>
+    </rtept>
+    <rtept lat="34.367571400" lon="135.855163100">
+      <ele>0.000</ele>
+      <name>RPT070</name>
+    </rtept>
+    <rtept lat="34.367645900" lon="135.854941000">
+      <ele>0.000</ele>
+      <name>RPT071</name>
+    </rtept>
+    <rtept lat="34.367837800" lon="135.854724800">
+      <ele>0.000</ele>
+      <name>RPT072</name>
+    </rtept>
+    <rtept lat="34.367881700" lon="135.854937300">
+      <ele>0.000</ele>
+      <name>RPT073</name>
+    </rtept>
+    <rtept lat="34.368024000" lon="135.855085700">
+      <ele>0.000</ele>
+      <name>RPT074</name>
+    </rtept>
+    <rtept lat="34.368156400" lon="135.855248400">
+      <ele>0.000</ele>
+      <name>RPT075</name>
+    </rtept>
+    <rtept lat="34.368136400" lon="135.855474000">
+      <ele>0.000</ele>
+      <name>RPT076</name>
+    </rtept>
+    <rtept lat="34.368207200" lon="135.855676300">
+      <ele>0.000</ele>
+      <name>RPT077</name>
+    </rtept>
+    <rtept lat="34.368025300" lon="135.855683200">
+      <ele>0.000</ele>
+      <name>RPT078</name>
+    </rtept>
+    <rtept lat="34.367839600" lon="135.855679400">
+      <ele>0.000</ele>
+      <name>RPT079</name>
+    </rtept>
+    <rtept lat="34.367836300" lon="135.855898900">
+      <ele>0.000</ele>
+      <name>RPT080</name>
+    </rtept>
+    <rtept lat="34.367772700" lon="135.856116000">
+      <ele>0.000</ele>
+      <name>RPT081</name>
+    </rtept>
+    <rtept lat="34.367782200" lon="135.856348100">
+      <ele>0.000</ele>
+      <name>RPT082</name>
+    </rtept>
+    <rtept lat="34.367841000" lon="135.856573700">
+      <ele>0.000</ele>
+      <name>RPT083</name>
+    </rtept>
+    <rtept lat="34.367962500" lon="135.856748700">
+      <ele>0.000</ele>
+      <name>RPT084</name>
+    </rtept>
+    <rtept lat="34.368007900" lon="135.856971200">
+      <ele>0.000</ele>
+      <name>RPT085</name>
+    </rtept>
+    <rtept lat="34.368036700" lon="135.857186900">
+      <ele>0.000</ele>
+      <name>RPT086</name>
+    </rtept>
+    <rtept lat="34.368081600" lon="135.857406200">
+      <ele>0.000</ele>
+      <name>RPT087</name>
+    </rtept>
+    <rtept lat="34.368053200" lon="135.857625700">
+      <ele>0.000</ele>
+      <name>RPT088</name>
+    </rtept>
+    <rtept lat="34.367990500" lon="135.857837600">
+      <ele>0.000</ele>
+      <name>RPT089</name>
+    </rtept>
+    <rtept lat="34.367923800" lon="135.858039800">
+      <ele>0.000</ele>
+      <name>RPT090</name>
+    </rtept>
+    <rtept lat="34.367917100" lon="135.857797000">
+      <ele>0.000</ele>
+      <name>RPT091</name>
+    </rtept>
+    <rtept lat="34.367913700" lon="135.858023900">
+      <ele>0.000</ele>
+      <name>RPT092</name>
+    </rtept>
+    <rtept lat="34.368034100" lon="135.858200000">
+      <ele>0.000</ele>
+      <name>RPT093</name>
+    </rtept>
+    <rtept lat="34.367897500" lon="135.857981400">
+      <ele>0.000</ele>
+      <name>RPT094</name>
+    </rtept>
+    <rtept lat="34.368024900" lon="135.858147800">
+      <ele>0.000</ele>
+      <name>RPT095</name>
+    </rtept>
+    <rtept lat="34.367964000" lon="135.858361000">
+      <ele>0.000</ele>
+      <name>RPT096</name>
+    </rtept>
+    <rtept lat="34.368105900" lon="135.858504800">
+      <ele>0.000</ele>
+      <name>RPT097</name>
+    </rtept>
+    <rtept lat="34.368145100" lon="135.858729000">
+      <ele>0.000</ele>
+      <name>RPT098</name>
+    </rtept>
+    <rtept lat="34.368123100" lon="135.858982800">
+      <ele>0.000</ele>
+      <name>RPT099</name>
+    </rtept>
+    <rtept lat="34.368109300" lon="135.859200900">
+      <ele>0.000</ele>
+      <name>RPT100</name>
+    </rtept>
+    <rtept lat="34.367960100" lon="135.859344500">
+      <ele>0.000</ele>
+      <name>RPT101</name>
+    </rtept>
+    <rtept lat="34.367790800" lon="135.859425500">
+      <ele>0.000</ele>
+      <name>RPT102</name>
+    </rtept>
+    <rtept lat="34.367968500" lon="135.859505400">
+      <ele>0.000</ele>
+      <name>RPT103</name>
+    </rtept>
+    <rtept lat="34.368149400" lon="135.859445100">
+      <ele>0.000</ele>
+      <name>RPT104</name>
+    </rtept>
+    <rtept lat="34.368326900" lon="135.859382400">
+      <ele>0.000</ele>
+      <name>RPT105</name>
+    </rtept>
+    <rtept lat="34.368514700" lon="135.859359400">
+      <ele>0.000</ele>
+      <name>RPT106</name>
+    </rtept>
+    <rtept lat="34.368696800" lon="135.859308300">
+      <ele>0.000</ele>
+      <name>RPT107</name>
+    </rtept>
+    <rtept lat="34.368874900" lon="135.859254700">
+      <ele>0.000</ele>
+      <name>RPT108</name>
+    </rtept>
+    <rtept lat="34.368962800" lon="135.859059500">
+      <ele>0.000</ele>
+      <name>RPT109</name>
+    </rtept>
+    <rtept lat="34.369084700" lon="135.858877400">
+      <ele>0.000</ele>
+      <name>RPT110</name>
+    </rtept>
+    <rtept lat="34.369244900" lon="135.858768300">
+      <ele>0.000</ele>
+      <name>RPT111</name>
+    </rtept>
+    <rtept lat="34.369407200" lon="135.858666100">
+      <ele>0.000</ele>
+      <name>RPT112</name>
+    </rtept>
+    <rtept lat="34.369580400" lon="135.858571500">
+      <ele>0.000</ele>
+      <name>RPT113</name>
+    </rtept>
+    <rtept lat="34.369727800" lon="135.858442100">
+      <ele>0.000</ele>
+      <name>RPT114</name>
+    </rtept>
+    <rtept lat="34.369861600" lon="135.858284600">
+      <ele>0.000</ele>
+      <name>RPT115</name>
+    </rtept>
+    <rtept lat="34.370040400" lon="135.858192100">
+      <ele>0.000</ele>
+      <name>RPT116</name>
+    </rtept>
+    <rtept lat="34.370190400" lon="135.857990200">
+      <ele>0.000</ele>
+      <name>RPT117</name>
+    </rtept>
+    <rtept lat="34.370383600" lon="135.857982000">
+      <ele>0.000</ele>
+      <name>RPT118</name>
+    </rtept>
+    <rtept lat="34.370541800" lon="135.857855500">
+      <ele>0.000</ele>
+      <name>RPT119</name>
+    </rtept>
+    <rtept lat="34.370710300" lon="135.857748700">
+      <ele>0.000</ele>
+      <name>RPT120</name>
+    </rtept>
+    <rtept lat="34.370891600" lon="135.857758600">
+      <ele>0.000</ele>
+      <name>RPT121</name>
+    </rtept>
+    <rtept lat="34.370999100" lon="135.857574700">
+      <ele>0.000</ele>
+      <name>RPT122</name>
+    </rtept>
+    <rtept lat="34.371143300" lon="135.857438000">
+      <ele>0.000</ele>
+      <name>RPT123</name>
+    </rtept>
+    <rtept lat="34.371228200" lon="135.857241000">
+      <ele>0.000</ele>
+      <name>RPT124</name>
+    </rtept>
+    <rtept lat="34.371365300" lon="135.857096200">
+      <ele>0.000</ele>
+      <name>RPT125</name>
+    </rtept>
+    <rtept lat="34.371457400" lon="135.856894500">
+      <ele>0.000</ele>
+      <name>RPT126</name>
+    </rtept>
+    <rtept lat="34.371543900" lon="135.856684300">
+      <ele>0.000</ele>
+      <name>RPT127</name>
+    </rtept>
+    <rtept lat="34.371626300" lon="135.856478400">
+      <ele>0.000</ele>
+      <name>RPT128</name>
+    </rtept>
+    <rtept lat="34.371804500" lon="135.856414300">
+      <ele>0.000</ele>
+      <name>RPT129</name>
+    </rtept>
+    <rtept lat="34.371948300" lon="135.856260600">
+      <ele>0.000</ele>
+      <name>RPT130</name>
+    </rtept>
+    <rtept lat="34.372070400" lon="135.856098700">
+      <ele>0.000</ele>
+      <name>RPT131</name>
+    </rtept>
+    <rtept lat="34.372185300" lon="135.855916600">
+      <ele>0.000</ele>
+      <name>RPT132</name>
+    </rtept>
+    <rtept lat="34.372315400" lon="135.855723200">
+      <ele>0.000</ele>
+      <name>RPT133</name>
+    </rtept>
+    <rtept lat="34.372351400" lon="135.855500500">
+      <ele>0.000</ele>
+      <name>RPT134</name>
+    </rtept>
+    <rtept lat="34.372511700" lon="135.855399000">
+      <ele>0.000</ele>
+      <name>RPT135</name>
+    </rtept>
+    <rtept lat="34.372430600" lon="135.855199800">
+      <ele>0.000</ele>
+      <name>RPT136</name>
+    </rtept>
+    <rtept lat="34.372475500" lon="135.854958700">
+      <ele>0.000</ele>
+      <name>RPT137</name>
+    </rtept>
+    <rtept lat="34.372523600" lon="135.854736900">
+      <ele>0.000</ele>
+      <name>RPT138</name>
+    </rtept>
+    <rtept lat="34.372576200" lon="135.854493000">
+      <ele>0.000</ele>
+      <name>RPT139</name>
+    </rtept>
+    <rtept lat="34.372647200" lon="135.854285900">
+      <ele>0.000</ele>
+      <name>RPT140</name>
+    </rtept>
+    <rtept lat="34.372804600" lon="135.854176800">
+      <ele>0.000</ele>
+      <name>RPT141</name>
+    </rtept>
+    <rtept lat="34.372992300" lon="135.854137500">
+      <ele>0.000</ele>
+      <name>RPT142</name>
+    </rtept>
+    <rtept lat="34.373200700" lon="135.854106300">
+      <ele>0.000</ele>
+      <name>RPT143</name>
+    </rtept>
+    <rtept lat="34.373330000" lon="135.853934100">
+      <ele>0.000</ele>
+      <name>RPT144</name>
+    </rtept>
+    <rtept lat="34.373465100" lon="135.853766500">
+      <ele>0.000</ele>
+      <name>RPT145</name>
+    </rtept>
+    <rtept lat="34.373536700" lon="135.853991500">
+      <ele>0.000</ele>
+      <name>RPT146</name>
+    </rtept>
+    <rtept lat="34.373708800" lon="135.854064800">
+      <ele>0.000</ele>
+      <name>RPT147</name>
+    </rtept>
+    <rtept lat="34.373840200" lon="135.853910700">
+      <ele>0.000</ele>
+      <name>RPT148</name>
+    </rtept>
+    <rtept lat="34.373952900" lon="135.854116700">
+      <ele>0.000</ele>
+      <name>RPT149</name>
+    </rtept>
+    <rtept lat="34.373900000" lon="135.854339700">
+      <ele>0.000</ele>
+      <name>RPT150</name>
+    </rtept>
+    <rtept lat="34.374076800" lon="135.854283400">
+      <ele>0.000</ele>
+      <name>RPT151</name>
+    </rtept>
+    <rtept lat="34.374247500" lon="135.854164300">
+      <ele>0.000</ele>
+      <name>RPT152</name>
+    </rtept>
+    <rtept lat="34.374408600" lon="135.854020100">
+      <ele>0.000</ele>
+      <name>RPT153</name>
+    </rtept>
+    <rtept lat="34.374565200" lon="135.853896500">
+      <ele>0.000</ele>
+      <name>RPT154</name>
+    </rtept>
+    <rtept lat="34.374752700" lon="135.853954300">
+      <ele>0.000</ele>
+      <name>RPT155</name>
+    </rtept>
+    <rtept lat="34.374906900" lon="135.853807100">
+      <ele>0.000</ele>
+      <name>RPT156</name>
+    </rtept>
+    <rtept lat="34.375105300" lon="135.853845300">
+      <ele>0.000</ele>
+      <name>RPT157</name>
+    </rtept>
+    <rtept lat="34.375295100" lon="135.853805600">
+      <ele>0.000</ele>
+      <name>RPT158</name>
+    </rtept>
+    <rtept lat="34.375491100" lon="135.853824700">
+      <ele>0.000</ele>
+      <name>RPT159</name>
+    </rtept>
+    <rtept lat="34.375311400" lon="135.853871700">
+      <ele>0.000</ele>
+      <name>RPT160</name>
+    </rtept>
+    <rtept lat="34.375123400" lon="135.853821000">
+      <ele>0.000</ele>
+      <name>RPT161</name>
+    </rtept>
+    <rtept lat="34.374935800" lon="135.853841300">
+      <ele>0.000</ele>
+      <name>RPT162</name>
+    </rtept>
+    <rtept lat="34.374778100" lon="135.853948400">
+      <ele>0.000</ele>
+      <name>RPT163</name>
+    </rtept>
+    <rtept lat="34.374577700" lon="135.853970100">
+      <ele>0.000</ele>
+      <name>RPT164</name>
+    </rtept>
+    <rtept lat="34.374414100" lon="135.854079500">
+      <ele>0.000</ele>
+      <name>RPT165</name>
+    </rtept>
+    <rtept lat="34.374225300" lon="135.854126500">
+      <ele>0.000</ele>
+      <name>RPT166</name>
+    </rtept>
+    <rtept lat="34.374178800" lon="135.854340800">
+      <ele>0.000</ele>
+      <name>RPT167</name>
+    </rtept>
+    <rtept lat="34.374292400" lon="135.854516500">
+      <ele>0.000</ele>
+      <name>RPT168</name>
+    </rtept>
+    <rtept lat="34.374325600" lon="135.854744400">
+      <ele>0.000</ele>
+      <name>RPT169</name>
+    </rtept>
+    <rtept lat="34.374343700" lon="135.854964100">
+      <ele>0.000</ele>
+      <name>RPT170</name>
+    </rtept>
+    <rtept lat="34.374404200" lon="135.855189200">
+      <ele>0.000</ele>
+      <name>RPT171</name>
+    </rtept>
+    <rtept lat="34.374472700" lon="135.855416100">
+      <ele>0.000</ele>
+      <name>RPT172</name>
+    </rtept>
+    <rtept lat="34.374621400" lon="135.855565400">
+      <ele>0.000</ele>
+      <name>RPT173</name>
+    </rtept>
+    <rtept lat="34.374813500" lon="135.855574400">
+      <ele>0.000</ele>
+      <name>RPT174</name>
+    </rtept>
+    <rtept lat="34.374820200" lon="135.855794000">
+      <ele>0.000</ele>
+      <name>RPT175</name>
+    </rtept>
+    <rtept lat="34.374758900" lon="135.855999700">
+      <ele>0.000</ele>
+      <name>RPT176</name>
+    </rtept>
+    <rtept lat="34.374650300" lon="135.856188100">
+      <ele>0.000</ele>
+      <name>RPT177</name>
+    </rtept>
+    <rtept lat="34.374501700" lon="135.856331200">
+      <ele>0.000</ele>
+      <name>RPT178</name>
+    </rtept>
+    <rtept lat="34.374420700" lon="135.856529600">
+      <ele>0.000</ele>
+      <name>RPT179</name>
+    </rtept>
+    <rtept lat="34.374293000" lon="135.856717300">
+      <ele>0.000</ele>
+      <name>RPT180</name>
+    </rtept>
+    <rtept lat="34.374264200" lon="135.856945000">
+      <ele>0.000</ele>
+      <name>RPT181</name>
+    </rtept>
+    <rtept lat="34.374068300" lon="135.857001400">
+      <ele>0.000</ele>
+      <name>RPT182</name>
+    </rtept>
+    <rtept lat="34.373890100" lon="135.857071800">
+      <ele>0.000</ele>
+      <name>RPT183</name>
+    </rtept>
+    <rtept lat="34.373751000" lon="135.857250400">
+      <ele>0.000</ele>
+      <name>RPT184</name>
+    </rtept>
+    <rtept lat="34.373571500" lon="135.857331200">
+      <ele>0.000</ele>
+      <name>RPT185</name>
+    </rtept>
+    <rtept lat="34.373521400" lon="135.857547700">
+      <ele>0.000</ele>
+      <name>RPT186</name>
+    </rtept>
+    <rtept lat="34.373479100" lon="135.857783100">
+      <ele>0.000</ele>
+      <name>RPT187</name>
+    </rtept>
+    <rtept lat="34.373390600" lon="135.857978600">
+      <ele>0.000</ele>
+      <name>RPT188</name>
+    </rtept>
+    <rtept lat="34.373290900" lon="135.858162900">
+      <ele>0.000</ele>
+      <name>RPT189</name>
+    </rtept>
+    <rtept lat="34.373154400" lon="135.858338100">
+      <ele>0.000</ele>
+      <name>RPT190</name>
+    </rtept>
+    <rtept lat="34.373000100" lon="135.858471000">
+      <ele>0.000</ele>
+      <name>RPT191</name>
+    </rtept>
+    <rtept lat="34.372978600" lon="135.858714800">
+      <ele>0.000</ele>
+      <name>RPT192</name>
+    </rtept>
+    <rtept lat="34.372802800" lon="135.858784900">
+      <ele>0.000</ele>
+      <name>RPT193</name>
+    </rtept>
+    <rtept lat="34.372757900" lon="135.859037900">
+      <ele>0.000</ele>
+      <name>RPT194</name>
+    </rtept>
+    <rtept lat="34.372610700" lon="135.859211200">
+      <ele>0.000</ele>
+      <name>RPT195</name>
+    </rtept>
+    <rtept lat="34.372449900" lon="135.859330500">
+      <ele>0.000</ele>
+      <name>RPT196</name>
+    </rtept>
+    <rtept lat="34.372315400" lon="135.859480800">
+      <ele>0.000</ele>
+      <name>RPT197</name>
+    </rtept>
+    <rtept lat="34.372229800" lon="135.859693900">
+      <ele>0.000</ele>
+      <name>RPT198</name>
+    </rtept>
+    <rtept lat="34.372096800" lon="135.859850100">
+      <ele>0.000</ele>
+      <name>RPT199</name>
+    </rtept>
+    <rtept lat="34.371895200" lon="135.859896600">
+      <ele>0.000</ele>
+      <name>RPT200</name>
+    </rtept>
+    <rtept lat="34.371732300" lon="135.860030000">
+      <ele>0.000</ele>
+      <name>RPT201</name>
+    </rtept>
+    <rtept lat="34.371589800" lon="135.860190500">
+      <ele>0.000</ele>
+      <name>RPT202</name>
+    </rtept>
+    <rtept lat="34.371442200" lon="135.860341200">
+      <ele>0.000</ele>
+      <name>RPT203</name>
+    </rtept>
+    <rtept lat="34.371330200" lon="135.860517300">
+      <ele>0.000</ele>
+      <name>RPT204</name>
+    </rtept>
+    <rtept lat="34.371199200" lon="135.860686200">
+      <ele>0.000</ele>
+      <name>RPT205</name>
+    </rtept>
+    <rtept lat="34.371093700" lon="135.860869300">
+      <ele>0.000</ele>
+      <name>RPT206</name>
+    </rtept>
+    <rtept lat="34.370934400" lon="135.860984000">
+      <ele>0.000</ele>
+      <name>RPT207</name>
+    </rtept>
+    <rtept lat="34.370770000" lon="135.861075300">
+      <ele>0.000</ele>
+      <name>RPT208</name>
+    </rtept>
+    <rtept lat="34.370619400" lon="135.861197500">
+      <ele>0.000</ele>
+      <name>RPT209</name>
+    </rtept>
+    <rtept lat="34.370439500" lon="135.861155800">
+      <ele>0.000</ele>
+      <name>RPT210</name>
+    </rtept>
+    <rtept lat="34.370403900" lon="135.861376300">
+      <ele>0.000</ele>
+      <name>RPT211</name>
+    </rtept>
+    <rtept lat="34.370218500" lon="135.861465000">
+      <ele>0.000</ele>
+      <name>RPT212</name>
+    </rtept>
+    <rtept lat="34.370122800" lon="135.861654600">
+      <ele>0.000</ele>
+      <name>RPT213</name>
+    </rtept>
+    <rtept lat="34.370001400" lon="135.861827900">
+      <ele>0.000</ele>
+      <name>RPT214</name>
+    </rtept>
+    <rtept lat="34.369830100" lon="135.861923900">
+      <ele>0.000</ele>
+      <name>RPT215</name>
+    </rtept>
+    <rtept lat="34.369699100" lon="135.862081300">
+      <ele>0.000</ele>
+      <name>RPT216</name>
+    </rtept>
+    <rtept lat="34.369583300" lon="135.862259300">
+      <ele>0.000</ele>
+      <name>RPT217</name>
+    </rtept>
+    <rtept lat="34.369455200" lon="135.862412900">
+      <ele>0.000</ele>
+      <name>RPT218</name>
+    </rtept>
+    <rtept lat="34.369302700" lon="135.862553200">
+      <ele>0.000</ele>
+      <name>RPT219</name>
+    </rtept>
+    <rtept lat="34.369155300" lon="135.862679600">
+      <ele>0.000</ele>
+      <name>RPT220</name>
+    </rtept>
+    <rtept lat="34.368991800" lon="135.862787000">
+      <ele>0.000</ele>
+      <name>RPT221</name>
+    </rtept>
+    <rtept lat="34.368874500" lon="135.862961800">
+      <ele>0.000</ele>
+      <name>RPT222</name>
+    </rtept>
+    <rtept lat="34.368694300" lon="135.863000400">
+      <ele>0.000</ele>
+      <name>RPT223</name>
+    </rtept>
+    <rtept lat="34.368510100" lon="135.863069100">
+      <ele>0.000</ele>
+      <name>RPT224</name>
+    </rtept>
+    <rtept lat="34.368422800" lon="135.863293100">
+      <ele>0.000</ele>
+      <name>RPT225</name>
+    </rtept>
+    <rtept lat="34.368329200" lon="135.863499000">
+      <ele>0.000</ele>
+      <name>RPT226</name>
+    </rtept>
+    <rtept lat="34.368143900" lon="135.863510300">
+      <ele>0.000</ele>
+      <name>RPT227</name>
+    </rtept>
+    <rtept lat="34.368020800" lon="135.863700900">
+      <ele>0.000</ele>
+      <name>RPT228</name>
+    </rtept>
+    <rtept lat="34.367861000" lon="135.863813200">
+      <ele>0.000</ele>
+      <name>RPT229</name>
+    </rtept>
+    <rtept lat="34.367707000" lon="135.863690300">
+      <ele>0.000</ele>
+      <name>RPT230</name>
+    </rtept>
+    <rtept lat="34.367677000" lon="135.863925500">
+      <ele>0.000</ele>
+      <name>RPT231</name>
+    </rtept>
+    <rtept lat="34.367483800" lon="135.863897600">
+      <ele>0.000</ele>
+      <name>RPT232</name>
+    </rtept>
+    <rtept lat="34.367339000" lon="135.863741900">
+      <ele>0.000</ele>
+      <name>RPT233</name>
+    </rtept>
+    <rtept lat="34.367236800" lon="135.863509200">
+      <ele>0.000</ele>
+      <name>RPT234</name>
+    </rtept>
+    <rtept lat="34.367254100" lon="135.863291500">
+      <ele>0.000</ele>
+      <name>RPT235</name>
+    </rtept>
+    <rtept lat="34.367143700" lon="135.863103900">
+      <ele>0.000</ele>
+      <name>RPT236</name>
+    </rtept>
+    <rtept lat="34.367038600" lon="135.862920900">
+      <ele>0.000</ele>
+      <name>RPT237</name>
+    </rtept>
+    <rtept lat="34.366917300" lon="135.862757600">
+      <ele>0.000</ele>
+      <name>RPT238</name>
+    </rtept>
+    <rtept lat="34.367016500" lon="135.862566700">
+      <ele>0.000</ele>
+      <name>RPT239</name>
+    </rtept>
+    <rtept lat="34.366913700" lon="135.862384400">
+      <ele>0.000</ele>
+      <name>RPT240</name>
+    </rtept>
+    <rtept lat="34.366747700" lon="135.862259500">
+      <ele>0.000</ele>
+      <name>RPT241</name>
+    </rtept>
+    <rtept lat="34.366575200" lon="135.862169100">
+      <ele>0.000</ele>
+      <name>RPT242</name>
+    </rtept>
+    <rtept lat="34.366384700" lon="135.862118500">
+      <ele>0.000</ele>
+      <name>RPT243</name>
+    </rtept>
+    <rtept lat="34.366219200" lon="135.862004600">
+      <ele>0.000</ele>
+      <name>RPT244</name>
+    </rtept>
+    <rtept lat="34.366401600" lon="135.861946400">
+      <ele>0.000</ele>
+      <name>RPT245</name>
+    </rtept>
+    <rtept lat="34.366590100" lon="135.861889600">
+      <ele>0.000</ele>
+      <name>RPT246</name>
+    </rtept>
+    <rtept lat="34.366770900" lon="135.861922600">
+      <ele>0.000</ele>
+      <name>RPT247</name>
+    </rtept>
+    <rtept lat="34.366954100" lon="135.861871700">
+      <ele>0.000</ele>
+      <name>RPT248</name>
+    </rtept>
+    <rtept lat="34.367123000" lon="135.861952200">
+      <ele>0.000</ele>
+      <name>RPT249</name>
+    </rtept>
+    <rtept lat="34.366942100" lon="135.861907700">
+      <ele>0.000</ele>
+      <name>RPT250</name>
+    </rtept>
+    <rtept lat="34.366759800" lon="135.861928000">
+      <ele>0.000</ele>
+      <name>RPT251</name>
+    </rtept>
+    <rtept lat="34.366575200" lon="135.861921400">
+      <ele>0.000</ele>
+      <name>RPT252</name>
+    </rtept>
+    <rtept lat="34.366392000" lon="135.861952800">
+      <ele>0.000</ele>
+      <name>RPT253</name>
+    </rtept>
+    <rtept lat="34.366198300" lon="135.861909500">
+      <ele>0.000</ele>
+      <name>RPT254</name>
+    </rtept>
+    <rtept lat="34.366008000" lon="135.861878900">
+      <ele>0.000</ele>
+      <name>RPT255</name>
+    </rtept>
+    <rtept lat="34.365868900" lon="135.861716100">
+      <ele>0.000</ele>
+      <name>RPT256</name>
+    </rtept>
+    <rtept lat="34.365675100" lon="135.861620200">
+      <ele>0.000</ele>
+      <name>RPT257</name>
+    </rtept>
+    <rtept lat="34.365544900" lon="135.861786100">
+      <ele>0.000</ele>
+      <name>RPT258</name>
+    </rtept>
+    <rtept lat="34.365457100" lon="135.861983700">
+      <ele>0.000</ele>
+      <name>RPT259</name>
+    </rtept>
+    <rtept lat="34.365308900" lon="135.862114000">
+      <ele>0.000</ele>
+      <name>RPT260</name>
+    </rtept>
+    <rtept lat="34.365112600" lon="135.862135200">
+      <ele>0.000</ele>
+      <name>RPT261</name>
+    </rtept>
+    <rtept lat="34.365048100" lon="135.862346400">
+      <ele>0.000</ele>
+      <name>RPT262</name>
+    </rtept>
+    <rtept lat="34.364873900" lon="135.862410000">
+      <ele>0.000</ele>
+      <name>RPT263</name>
+    </rtept>
+    <rtept lat="34.364718600" lon="135.862297300">
+      <ele>0.000</ele>
+      <name>RPT264</name>
+    </rtept>
+    <rtept lat="34.364540900" lon="135.862371100">
+      <ele>0.000</ele>
+      <name>RPT265</name>
+    </rtept>
+    <rtept lat="34.364346200" lon="135.862413900">
+      <ele>0.000</ele>
+      <name>RPT266</name>
+    </rtept>
+    <rtept lat="34.364192400" lon="135.862258400">
+      <ele>0.000</ele>
+      <name>RPT267</name>
+    </rtept>
+    <rtept lat="34.364028900" lon="135.862165300">
+      <ele>0.000</ele>
+      <name>RPT268</name>
+    </rtept>
+    <rtept lat="34.363870300" lon="135.862045300">
+      <ele>0.000</ele>
+      <name>RPT269</name>
+    </rtept>
+    <rtept lat="34.363744400" lon="135.861885600">
+      <ele>0.000</ele>
+      <name>RPT270</name>
+    </rtept>
+    <rtept lat="34.363580200" lon="135.861752500">
+      <ele>0.000</ele>
+      <name>RPT271</name>
+    </rtept>
+    <rtept lat="34.363399000" lon="135.861727500">
+      <ele>0.000</ele>
+      <name>RPT272</name>
+    </rtept>
+    <rtept lat="34.363238100" lon="135.861596500">
+      <ele>0.000</ele>
+      <name>RPT273</name>
+    </rtept>
+    <rtept lat="34.363243100" lon="135.861372800">
+      <ele>0.000</ele>
+      <name>RPT274</name>
+    </rtept>
+  </rte>
+</gpx>

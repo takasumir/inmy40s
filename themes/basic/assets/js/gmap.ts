@@ -57,19 +57,25 @@ async function initMap(): Promise<void> {
     const center = JSON.parse(mapCont.dataset.center);
     const zoom = parseInt(mapCont.dataset.zoom);
     const type = mapCont.dataset.style ?? "46b4720545513a2c";
-    console.log(type);
     map = new Map(mapCont as HTMLElement, {
       center: center,
-      mapId: mapCont.dataset.style ?? "46b4720545513a2c",
+      mapId: "46b4720545513a2c",
       zoom: zoom,
     });
-
     const parser = new DOMParser();
-
     for (const feature of geojsondata.features) {
       switch (feature.geometry.type) {
         case "LineString":
-          console.log("LineString");
+          const latlng = feature.geometry.coordinates.map(([x, y]) => {
+            return { lat: y, lng: x };
+          });
+          const line = new google.maps.Polyline({
+            path: latlng,
+            strokeColor: "#2222ff",
+            strokeOpacity: 0.8,
+            strokeWeight: 4,
+          });
+          line.setMap(map);
           break;
 
         case "Point":
@@ -82,7 +88,10 @@ async function initMap(): Promise<void> {
           }
           const marker = new AdvancedMarkerElement({
             map,
-            position: feature.geometry.coordinates,
+            position: {
+              lng: feature.geometry.coordinates[0],
+              lat: feature.geometry.coordinates[1],
+            },
             content: pin,
             title: feature.properties.name,
           });

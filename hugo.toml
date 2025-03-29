@@ -5,6 +5,9 @@ theme = 'basic'
 hasCJKLanguage = true
 timeout = '120s'
 
+[security]
+  enableInlineShortcodes = true
+
 [build]
   [build.buildStats]
     enable = true

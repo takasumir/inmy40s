@@ -60,7 +60,6 @@ async function mapInit() {
                 "image/svg+xml",
               ).documentElement;
             }
-            console.log(pin);
             const marker = new mapboxgl.Marker({
               element: pin,
               anchor: "bottom",
@@ -80,4 +79,6 @@ async function mapInit() {
     });
   }
 }
-mapInit();
+document.addEventListener("DOMContentLoaded", (event) => {
+  mapInit();
+});
