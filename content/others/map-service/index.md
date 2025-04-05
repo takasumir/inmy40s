@@ -107,7 +107,7 @@ Google マップと同じように共有ボタンで HTML
 埋め込みコードを取得してコピペするだけです。
 
 {{< strava.inline >}}
-<iframe allowtransparency="true" frameborder="0" height="405" loading="lazy" scrolling="no" src="https://www.strava.com/activities/4264895189/embed/98bdc56b9e99ebbc6a48352d1af557ba58bb8028" width="590">
+<iframe allowtransparency="true" frameborder="0" height="405" loading="lazy" scrolling="no" src="https://www.strava.com/activities/4264895189/embed/98bdc56b9e99ebbc6a48352d1af557ba58bb8028" width="590" style="max-width:100%">
 </iframe>
 {{< /strava.inline >}}
 

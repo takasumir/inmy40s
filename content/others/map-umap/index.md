@@ -51,9 +51,12 @@ License (ODbL)
 ## GPSログを読み込み
 
 次に、GPSデータを読み込んでみましょう。
-[サイクリングでJR岸辺駅から生駒山の暗峠を目指した](https://www.bchari.com/2021/11/kuragaritouge.html)
+
+[サイクリングでJR岸辺駅から生駒山の暗峠を目指した](/bike/madone21-kuragaritouge)
 GPSログです。GPSサイコンのXOSS
 Gで取得したログを、STRAVAにアップロードしたデータを使ってみます。
+
+{{< linkcard "/bike/madone21-kuragaritouge" >}}
 
 STRAVAにログインし、ダッシュボードから目的のワークアウトを選択し、メニュー（「・・・」のボタン）から「GPXをエクスポート」を選択すると、GPXデータがダウンロードできます。
 
