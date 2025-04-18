@@ -1,3 +1,0 @@
-{{- range .Page.Params.js_cdn -}}
-<script src="{{ . | safeURL }}">
-{{- end -}}
