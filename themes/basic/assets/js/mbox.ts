@@ -32,14 +32,14 @@ async function mapInit() {
       for (feature of geojsondata.features) {
         switch (feature.geometry.type) {
           case "LineString":
-            map.addSource("route", {
+            map.addSource(feature.properties.name, {
               type: "geojson",
               data: feature,
             });
             map.addLayer({
-              id: "route",
+              id: feature.properties.name,
               type: "line",
-              source: "route",
+              source: feature.properties.name,
               layout: {
                 "line-join": "round",
                 "line-cap": "round",
