@@ -1,0 +1,247 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [135.49959407, 34.70376294],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "HEP FIVE前 クリスマスツリー",
+        "name": "HEP FIVE前 クリスマスツリー",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='0' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.49958334, 34.70256779],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ランドマークレーザー",
+        "name": "ランドマークレーザー",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-120' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.49918101, 34.70159644],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ランドマークレーザー",
+        "name": "ランドマークレーザー",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-240' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.5009848, 34.69765801],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "水都ブルー",
+        "name": "水都ブルー",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-360' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50125302, 34.69378775],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "大阪市役所",
+        "name": "大阪市役所",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-480' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50137908, 34.69330478],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "中之島イルミネーションストリート",
+        "name": "中之島イルミネーションストリート",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-600' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50116048, 34.6929828],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "淀屋橋",
+        "name": "淀屋橋",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-720' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50087214, 34.68431091],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "シャンパンゴールド",
+        "name": "シャンパンゴールド",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-840' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50112561, 34.68996362],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "水都ブルー×シャンパンゴールド",
+        "name": "水都ブルー×シャンパンゴールド",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-960' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50089897, 34.68486672],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "Seatle's best coffee",
+        "name": "Seatle's best coffee",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1080' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50077156, 34.68168954],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ミックス",
+        "name": "ミックス",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1200' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50081984, 34.68363379],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ミックス",
+        "name": "ミックス",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1320' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50055162, 34.67432785],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "心斎橋付近の歩道",
+        "name": "心斎橋付近の歩道",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1440' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50055162, 34.66909873],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "道頓堀",
+        "name": "道頓堀",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1560' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50070451, 34.67955223],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ミックス",
+        "name": "ミックス",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1680' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50054625, 34.66843031],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "なんば付近歩道",
+        "name": "なんば付近歩道",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1800' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.50052211, 34.6678766],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "御堂筋線なんば駅入口",
+        "name": "御堂筋線なんば駅入口",
+        "marker": "<svg width='66px' height='73.5px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'><style>.bln{filter: drop-shadow(0px 0px 5px black);</style> <defs> <clipPath id='cut-off-circle'> <circle cx='63' cy='63' r='50'/> </clipPath> </defs> <g class='bln' transform='scale(0.5)'><polygon points='63, 135, 33, 100, 93, 100' fill='#30f'/> <circle cx='63' cy='63' r='60' fill='#30f'/> <circle cx='63' cy='63' r='53' fill='white'/> <image href='images/sprite.jpg' x='-1920' y='0' height='120px' width='2160px' clip-path='url(#cut-off-circle)'/></g></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [135.49827979, 34.7018346],
+          [135.49938486, 34.70106721],
+          [135.50116048, 34.69667668],
+          [135.50128923, 34.69616506],
+          [135.50122485, 34.69526971],
+          [135.50119267, 34.69511534],
+          [135.50101028, 34.69319231],
+          [135.50097273, 34.69276006],
+          [135.50095663, 34.69252188],
+          [135.50090835, 34.68995921],
+          [135.50090835, 34.68920936],
+          [135.50079034, 34.68694654],
+          [135.5007206, 34.68527033],
+          [135.50063477, 34.68361174],
+          [135.50058649, 34.6821825],
+          [135.50035045, 34.67595355],
+          [135.50033972, 34.67521239],
+          [135.50035582, 34.67433006],
+          [135.50036118, 34.67353595],
+          [135.50033436, 34.67274625],
+          [135.50033972, 34.6694197],
+          [135.50033436, 34.66870937],
+          [135.5003129, 34.66665777],
+          [135.50031827, 34.66554591]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "name": "midousuji",
+        "stroke": "#ff33ff",
+        "stroke-width": 12,
+        "stroke-opacity": 0.6
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

@@ -1,0 +1,97 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [135.83669678, 34.53952502],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "三輪素麺",
+        "name": "三輪素麺"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.83926634, 34.54068717],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "卑弥呼の庭",
+        "name": "卑弥呼の庭"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.83820418, 34.53783258],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "卑弥呼の庭駐車場",
+        "name": "卑弥呼の庭駐車場"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.83915637, 34.53855618],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "倭迹迹日百襲姫命 大市墓 拝所",
+        "name": "倭迹迹日百襲姫命 大市墓 拝所"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.84111974, 34.5394267],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "卑弥呼の墓（？）",
+        "name": "箸墓古墳"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [135.83668605, 34.53924663],
+          [135.83755509, 34.53927756],
+          [135.83769456, 34.54020994],
+          [135.83802716, 34.54081532],
+          [135.83836512, 34.54090369],
+          [135.83953992, 34.54082858]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "name": "route1"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [135.83815054, 34.53799166],
+          [135.83882646, 34.53804469],
+          [135.83945409, 34.53803585],
+          [135.83947287, 34.5380701],
+          [135.83931462, 34.53840152],
+          [135.8392489, 34.53839489],
+          [135.83921269, 34.5384667],
+          [135.83911479, 34.5384435],
+          [135.83907322, 34.53852856]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "name": "route2"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

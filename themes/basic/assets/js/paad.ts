@@ -17,7 +17,9 @@ const PaAd = ({ item }) =>
       ${item.ItemInfo.Title.DisplayValue}
     </div>
     <div class="text-center">
-      <span class="price">${item.Offers.Listings[0].Price.DisplayAmount}</span>
+      <span class="price"
+        >${item.Offers?.Listings[0]?.Price?.DisplayAmount}</span
+      >
       <a
         class="inline-block rounded-full ml-4 py-2 px-4 bg-[#1A237E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
         href="https://www.amazon.co.jp/dp/B00H3UCEHW?tag=takasumir-22&linkCode=ogi&th=1&psc=1"

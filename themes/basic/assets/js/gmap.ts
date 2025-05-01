@@ -56,11 +56,12 @@ async function initMap(): Promise<void> {
     const geojsondata = await response.json();
     const center = JSON.parse(mapCont.dataset.center);
     const zoom = parseInt(mapCont.dataset.zoom);
-    const type = mapCont.dataset.style ?? "46b4720545513a2c";
+    const type = mapCont.dataset.style ?? "roadmap"; //"46b4720545513a2c";
     map = new Map(mapCont as HTMLElement, {
+      zoom: zoom,
       center: center,
       mapId: "46b4720545513a2c",
-      zoom: zoom,
+      mapTypeId: type,
     });
     const parser = new DOMParser();
     for (const feature of geojsondata.features) {
@@ -71,9 +72,9 @@ async function initMap(): Promise<void> {
           });
           const line = new google.maps.Polyline({
             path: latlng,
-            strokeColor: "#2222ff",
-            strokeOpacity: 0.8,
-            strokeWeight: 4,
+            strokeColor: feature.properties.stroke ?? "#2222ff",
+            strokeOpacity: feature.properties["stroke-opacity"] ?? 0.8,
+            strokeWeight: feature.properties["stroke-width"] ?? 4,
           });
           line.setMap(map);
           break;
@@ -94,6 +95,7 @@ async function initMap(): Promise<void> {
             },
             content: pin,
             title: feature.properties.name,
+            collisionBehavior: "OPTIONAL_AND_HIDES_LOWER_PRIORITY",
           });
           const infowindow = new google.maps.InfoWindow({
             headerContent: feature.properties.name,

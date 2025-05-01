@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="120px" height="135px" version="1.1"
+     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <clipPath id="cut-off-circle">
+      <circle cx="60" cy="60" r="50"/>
+    </clipPath>
+  </defs>
+  <polygon points="60, 135, 30, 100, 90, 100" fill="#30f"/>
+  <circle cx="60" cy="60" r="60" fill="#30f"/>
+  <circle cx="60" cy="60" r="53" fill="white"/>
+  <image href="images/sprite.jpg" x="0" y="0" height="120px" width="2160px" clip-path="url(#cut-off-circle)"/>
+</svg>
