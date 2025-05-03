@@ -11,11 +11,9 @@ tags:
   - Amazonアソシエイト
   - PA-API
   - Webサービス
-title: アソシエイトのツールバーで作成した画像＋テキストリンクをPA-APIを使い変換する
+title: Amazonアソシエイト Python を使い商品リンクを作成する
 js: js/paad.ts
 ---
-
-![title-image](./images/pa-api2.webp)
 
 アソシエイトツールバーで作成した「画像リンク」、「テキストと画像リンク」が廃止され、とりあえずスクラッチパッドでASINを入れてHTMLを取得する方法を試してみました。
 

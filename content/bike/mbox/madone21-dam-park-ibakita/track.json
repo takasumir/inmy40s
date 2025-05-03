@@ -1,0 +1,130 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [135.521883, 34.812992],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "万博記念公園周遊道路",
+        "name": "万博記念公園周遊道路",
+        "html": "<p style=\"margin:0;width:120px\">万博記念公園周遊道路<br/><img alt=\"万博記念公園周遊道路\" width=\"120\" height=\"80\"  src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxSioAkeoSnbGajCKhv5rDnAc1-hoeptaPJeNRln6HRRsbZkWxFyEKPyFvMpezoomYzhEalSTW6wSadbROa6K_w5zuDBO9dPgPXlJ9CqMW4Cgrw4lVqJqnHnFV81YDRCkWHWBSfphwORSlRu9AswJ60a9sE_FTaTEGhBzEQ5ysrXk4Urd0hw4vsumTUdE/s320/001s.webp\"/></p>",
+        "marker": "<svg height='40' id='start_svg' version='1.1' viewBox='0 96 960 960' width='40' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'><path d='M 480,976 C 372.66667,884.66667 292.5,799.83333 239.5,721.5 186.5,643.16667 160,570.66667 160,504 c 0,-100 32.16667,-179.66667 96.5,-239 64.33333,-59.33333 138.83333,-89 223.5,-89 84.66667,0 159.16667,29.66667 223.5,89 64.33333,59.33333 96.5,139 96.5,239 0,66.66667 -26.5,139.16667 -79.5,217.5 C 667.5,799.83333 587.33333,884.66667 480,976 Z' id='path1787' style='fill:#42a5f5;stroke-width:72;stroke:#42a5f5'></path><path class='UnoptimicedTransforms' d='m 427.61984,337.91246 153.001,163.30724 m -153.001,163.30726 153.001,-163.30724' id='path1053' style='opacity:1;fill:none;stroke:#fff;stroke-width:69.14210521;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1' transform='matrix(0.98232578,0,0,0.98463912,9.712259,-2.5603181)'></path></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.5213370788626, 34.85763004083004],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ラ・ムー",
+        "name": "ラ・ムー",
+        "html": "<p style=\"margin:0;width:120px\">ラ・ムー<br/><img alt=\"ラ・ムー\" width=\"120\" height=\"80\"  src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhb72wX6DFlQKlLWv3JDHkpjcVLPhyphenhyphenwzYNZZR8b_iauU40kzYJK126j-q6Me-kSYJ52Vb5tlM5B7U447IETWhjQqp6F1vni-XKOefp8ESycLYxbmA0kaczZP7NXoFTlKsYusPSzrbyaxLhcN14XwsjV9G0Ehj7DFaWixFAw_l6LHoGI3eUPYhRJ3sGaT50/s320/003s.webp\"/></p>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.55496281044526, 34.87660290850737],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ダムパークいばきた",
+        "name": "ダムパークいばきた",
+        "html": "<p style=\"margin:0;width:120px\">ダムパークいばきた<br/><img alt=\"ダムパークいばきた\" width=\"120\" height=\"80\"  src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXeoQaez4VJk9Y15CQrThcGQPxbDc_Okma6GvIIW0VPVO0HqJBEXaS3EZHOJUo3EJiRxHSUowt09ykVB6N6vw_vugOFEmJZgdj50doOLGuyxU2aI55fTHQUzPVbMPZl33oxhTC_BxIcpLPYkSgwvwpOpPnFsKpl_EEHSCmx8UfKmY8aR92iYzygwErYUQ/s320/012s.webp\"/></p>",
+        "marker": "<svg height='40' id='goal_svg' version='1.1' viewBox='0 96 960 960' width='40' xmlns='http://www.w3.org/2000/svg' xmlns:svg='http://www.w3.org/2000/svg'><path d='M 480,976 C 372.66667,884.66667 292.5,799.83333 239.5,721.5 186.5,643.16667 160,570.66667 160,504 c 0,-100 32.16667,-179.66667 96.5,-239 64.33333,-59.33333 138.83333,-89 223.5,-89 84.66667,0 159.16667,29.66667 223.5,89 64.33333,59.33333 96.5,139 96.5,239 0,66.66667 -26.5,139.16667 -79.5,217.5 C 667.5,799.83333 587.33333,884.66667 480,976 Z' id='path1787' style='fill:#42A5F5'></path><path class='UnoptimicedTransforms' d='m 340.56219,445.76257 h 140 v 140 h -140 z m 280,0 h 140 v 140 h -140 z m -140,140 h 140 v 140 h -140 z m 280,0 h 140 v 140 h -140 z m -420,140 h 140 v 140 h -140 z m 280,0 h 140 v 140 h -140 z m -140,140 h 140 v 140.00003 h -140 z m 280,0 h 140 v 140.00003 h -140 z' height='140' id='rect5964' rx='0' ry='0' style='opacity:1;fill:#ffffff;stroke:none;stroke-width:38;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none' transform='translate(-120.52058,-249.67651)' width='140' x='340.56219' y='445.76257'></path><path d='M 480,976 C 372.66667,884.66667 292.5,799.83333 239.5,721.5 186.5,643.16667 160,570.66667 160,504 c 0,-100 32.16667,-179.66667 96.5,-239 64.33333,-59.33333 138.83333,-89 223.5,-89 84.66667,0 159.16667,29.66667 223.5,89 64.33333,59.33333 96.5,139 96.5,239 0,66.66667 -26.5,139.16667 -79.5,217.5 C 667.5,799.83333 587.33333,884.66667 480,976 Z' id='path6020' style='fill:none;stroke-width:72;stroke-dasharray:none;stroke:#42A5F5'></path></svg>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.55939522402218, 34.868535508682804],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "パンク",
+        "name": "パンク",
+        "html": "<p style=\"margin:0;width:120px\">パンク<br/><img alt=\"パンク\" width=\"120\" height=\"80\"  src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS4fi4yqhC4URrYZzWnmW9bb-GaqjTT3yJv0G-f9o4Lkzj5FprqcwRkHn6ypLanZCfvKzwyJVf3J_Za-dFYv2zjWnurRSYNrfc6D0QPSUDPZkYWbSCqJG_UUv2tb2tCtQ8k0_-uPJn52g7hyHB1eFyophA9xP70nvShnIufwmzYW_qSSmYgvUZZsfv4-w/s320/020s.webp\"/></p>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.56048354586167, 34.869501279755816],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "ダムパークいばきた　風の丘ゾーン",
+        "name": "ダムパークいばきた　風の丘ゾーン",
+        "html": "<p style=\"margin:0;width:120px\">ダムパークいばきた　風の丘ゾーン<br/><img alt=\"ダムパークいばきた　風の丘ゾーン\" width=\"120\" height=\"80\"  src=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnFGvEo0Jr1QDWou3PdiGZD_QcWfwsz6SIZHGsIek4irOMzFNR8fAKmSCEU1UBnlQdvFKYc6UfXbiwNjOLGPG_s4tgtKesBnndFkPEzPyJ9lnH0O2Q-f3wbmRtrOP4mt74LxXCiawC3jZczxPHkvsDr9YMADx_l87KrVBcp954AtNck6cYzbYRgvmgsdo/s320/022s.webp\"/></p>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [135.521883, 34.812992, 70],
+          [135.523868, 34.814901, 55],
+          [135.525745, 34.816441, 60],
+          [135.527558, 34.816739, 59],
+          [135.5295, 34.816379, 56],
+          [135.529962, 34.818753, 67],
+          [135.529962, 34.820386, 67],
+          [135.528138, 34.827425, 69],
+          [135.526475, 34.835568, 56],
+          [135.526464, 34.83711, 58],
+          [135.526206, 34.838593, 62],
+          [135.525573, 34.839811, 66],
+          [135.52494, 34.840562, 66],
+          [135.522054, 34.843158, 73],
+          [135.521561, 34.843952, 73],
+          [135.521379, 34.84487, 72],
+          [135.521411, 34.848981, 85],
+          [135.521926, 34.853826, 110],
+          [135.522881, 34.856076, 124],
+          [135.523331, 34.856663, 131],
+          [135.523288, 34.856942, 133],
+          [135.52272, 34.857052, 130],
+          [135.522387, 34.856497, 131],
+          [135.521057, 34.856972, 131],
+          [135.521271, 34.857296, 132],
+          [135.520649, 34.85753, 134],
+          [135.520939, 34.858281, 137],
+          [135.521507, 34.859056, 141],
+          [135.521926, 34.859236, 142],
+          [135.523911, 34.859362, 134],
+          [135.52523, 34.859751, 131],
+          [135.527215, 34.860775, 127],
+          [135.527472, 34.861218, 127],
+          [135.532676, 34.865048, 129],
+          [135.53112, 34.866376, 140],
+          [135.530916, 34.866711, 139],
+          [135.530723, 34.86802, 139],
+          [135.537536, 34.869809, 139],
+          [135.540701, 34.871179, 152],
+          [135.541495, 34.871724, 161],
+          [135.541946, 34.872327, 172],
+          [135.542525, 34.872295, 175],
+          [135.542943, 34.872601, 180],
+          [135.542976, 34.873773, 189],
+          [135.543137, 34.873945, 191],
+          [135.54436, 34.874234, 200],
+          [135.545615, 34.872606, 193],
+          [135.54598, 34.872563, 193],
+          [135.553973, 34.876826, 152],
+          [135.554262, 34.876654, 153],
+          [135.555239, 34.875385, 144],
+          [135.555346, 34.875562, 145]
+        ],
+        "type": "LineString"
+      },
+      "properties": {
+        "name": "安威川ダムサイクリング"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
