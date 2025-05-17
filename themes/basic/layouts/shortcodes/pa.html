@@ -2,6 +2,34 @@
   class="pa-container flex flex-wrap justify-around gap-4 min-h-[272px] my-4"
 >
   {{- range .Params -}}
-    <div class="pa" data-asin="{{ . }}"></div>
+    {{- $asin := . -}}
+    {{- range where site.Data.pa.items ".ASIN" $asin -}}
+      <div
+        class="pa p-4 basis-xs w-xs border-4 rounded-xl border-[#1A237E]"
+        data-asin="{{ .ASIN }}"
+      >
+        <a
+          href="{{ .DetailPageURL }}"
+          aria-label="{{ .ItemInfo.Title.DisplayValue }}"
+        >
+          <img
+            src="{{ .Images.Primary.Medium.URL }}"
+            width="160"
+            height="160"
+            class="mx-auto size-[160px] object-contain"
+        /></a>
+        <div class="text-base font-bold truncate mb-2">
+          {{ .ItemInfo.Title.DisplayValue }}
+        </div>
+        <div class="text-center">
+          <span class="price"></span>
+          <a
+            class="inline-block rounded-full ml-4 py-2 px-4 bg-[#1A237E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
+            href="{{ .DetailPageURL }}"
+            >Amazonで見る</a
+          >
+        </div>
+      </div>
+    {{- end -}}
   {{- end -}}
 </div>
