@@ -31,17 +31,21 @@ export default async (req: Request, context: Context) => {
     .GetItems(commonParameters, requestParameters)
     .then((data) => {
       res = JSON.stringify(data);
+      return new Response(res, {
+        status: 200,
+        statusText: "Netlify functions ppapi returned",
+        headers: { "Access-Control-Allow-Origin": "*" },
+      });
     })
     .catch((error: unknown) => {
       console.log(error);
       res = null;
+      return new Response(res, {
+        status: 500,
+        statusText: "Internal Server Error",
+        headers: { "Access-Control-Allow-Origin": "*" },
+      });
     });
-
-  return new Response(res, {
-    status: 200,
-    statusText: "Netlify functions ppapi returned",
-    headers: { "Access-Control-Allow-Origin": "*" },
-  });
 };
 // URLを https://ドメイン名/paapi/「asin」とし、asinをパラメーターとして
 // 関数本体へ渡す

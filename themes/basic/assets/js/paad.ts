@@ -37,18 +37,25 @@ async function getItems(asins) {
   const res: Response = await fetch("/paapi/" + [...asins].join("/"), {
     mode: "cors",
   });
-  return res.json();
+  if (res.status === 200) {
+    console.log(res);
+    return res.json();
+  } else {
+    console.log("No content");
+    return null;
+  }
 }
 
 async function renderItems(asins, containers) {
   const res = await getItems(asins);
-  const items = res.ItemsResult.Items;
-
-  containers.forEach((ele) => {
-    const item = items.find((item) => item.ASIN === ele.dataset.asin);
-    console.log(item);
-    render(html`<${PaAd} item=${item} />`, ele);
-  });
+  if (res) {
+    const items = res.ItemsResult.Items;
+    containers.forEach((ele) => {
+      const item = items.find((item) => item.ASIN === ele.dataset.asin);
+      console.log(item);
+      render(html`<${PaAd} item=${item} />`, ele);
+    });
+  }
 }
 
 if (paContainers.length > 0) {
