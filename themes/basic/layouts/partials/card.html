@@ -27,6 +27,8 @@
         >{{ $.LinkTitle }}</a
       >
     </h2>
-    <p class="line-clamp-3 hidden md:block">{{ .Summary }}</p>
+    <p class="line-clamp-3 sr-only md:not-sr-only md:overflow-hidden">
+      {{ .Summary | plainify }}
+    </p>
   </div>
 </article>
