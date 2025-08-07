@@ -1,0 +1,65 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [136.01990013590006, 34.375752227301845],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "やはた温泉",
+        "name": "やはた温泉",
+        "html": "<img alt=\"やはた温泉\" width=\"120\" height=\"80\" src=\"images/008s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.422099976628, 33.96794792350473],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "猪谷川水辺公園",
+        "name": "猪谷川水辺公園",
+        "html": "<img alt=\"猪谷川水辺公園\" width=\"120\" height=\"90\" src=\"images/IMG_20200812_103120s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [136.0609361214915, 34.43919487830447],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "たかすみ温泉",
+        "name": "たかすみ温泉",
+        "html": "<img alt=\"たかすみ温泉\" width=\"120\" height=\"80\" src=\"images/IMG_4566s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.98644922125078, 34.38983873655659],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "丹生川上神社",
+        "name": "丹生川上神社",
+        "html": "<img alt=\"丹生川上神社\" width=\"120\" height=\"90\" src=\"images/03-2s.webp\"/>"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [135.62376441442265, 35.31182968512425],
+        "type": "Point"
+      },
+      "properties": {
+        "description": "美山かやぶきの里",
+        "name": "美山かやぶきの里",
+        "html": "<img alt=\"美山かやぶきの里\" width=\"120\" height=\"68\" src=\"images/90s.webp\"/>"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}
