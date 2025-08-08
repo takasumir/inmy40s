@@ -125,6 +125,6 @@
   }
 
   .linkcard a {
-    @apply text-gray-900 font-normal no-underline;
+    @apply text-gray-900 no-underline;
   }
 }

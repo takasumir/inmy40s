@@ -6,21 +6,23 @@
     {{- $small := .Fill "144x144 webp" -}}
     {{- $medium := .Fill "288x288 webp" -}}
     <article
-      class="linkcard my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
+      class="linkcard my-4 bg-slate-50 md:p-3 rounded-lg shadow-md flex gap-4 h-36 md:h-42 overflow-hidden"
     >
       <img
         srcset="{{ $small.RelPermalink }} 144w, {{ $medium.RelPermalink }} 288w"
-        src="{{ .RelPermalink }}"
+        src="{{ .RelPermalink | safeURL }}"
         width="192"
         height="192"
         alt="featured image"
         class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
       />
-      <div class="flex-auto">
-        <h2 class="text-2xl mb-4 tracking-tight" text-black font-bold>
+      <div class="flex-auto self-center">
+        <h2 class="text-xl mb-2 tracking-tight font-bold" text-black font-bold>
           <a class="hover:text-blue-600" href="{{ $href }}">{{ $title }}</a>
         </h2>
-        <p class="line-clamp-3 hidden md:inline">{{ $summary }}</p>
+        <p class="line-clamp-2 md:line-clamp-3">
+          {{ $summary }}
+        </p>
       </div>
     </article>
   {{ end }}
