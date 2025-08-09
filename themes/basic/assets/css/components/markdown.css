@@ -124,7 +124,13 @@
     @apply text-white font-bold no-underline;
   }
 
-  .linkcard a {
-    @apply text-gray-900 no-underline;
+  .linkcard {
+    h2 {
+      @apply text-xl;
+    }
+
+    a {
+      @apply text-gray-900 no-underline;
+    }
   }
 }

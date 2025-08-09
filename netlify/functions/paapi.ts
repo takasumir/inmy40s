@@ -24,18 +24,14 @@ export default async (req: Request, context: Context) => {
   const asins = context.params.asin.split("/");
   requestParameters.ItemIds = asins;
 
-  let res: string | null = "";
+  let res; //: string | null = "";
 
   /** Promise */
   await amazonPaapi
     .GetItems(commonParameters, requestParameters)
     .then((data) => {
       res = JSON.stringify(data);
-      return new Response(res, {
-        status: 200,
-        statusText: "Netlify functions ppapi returned",
-        headers: { "Access-Control-Allow-Origin": "*" },
-      });
+      console.log(res);
     })
     .catch((error: unknown) => {
       console.log(error);
@@ -46,6 +42,12 @@ export default async (req: Request, context: Context) => {
         headers: { "Access-Control-Allow-Origin": "*" },
       });
     });
+  return new Response(res, {
+    status: 200,
+    statusText: "Netlify functions ppapi returned",
+    headers: { "Access-Control-Allow-Origin": "*" },
+  });
+  console.log("returned?");
 };
 // URLを https://ドメイン名/paapi/「asin」とし、asinをパラメーターとして
 // 関数本体へ渡す
