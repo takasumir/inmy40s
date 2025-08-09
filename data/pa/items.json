@@ -1509,20 +1509,20 @@
     }
   },
   {
-    "ASIN": "B0787TH818",
-    "DetailPageURL": "https://www.amazon.co.jp/dp/B0787TH818?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
+    "ASIN": "B0787QYL69",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B0787QYL69?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
     "Images": {
       "Primary": {
         "Medium": {
-          "URL": "https://m.media-amazon.com/images/I/419UM1fdtAL._SL160_.jpg",
-          "Height": 157,
+          "URL": "https://m.media-amazon.com/images/I/41G0V-Q3gaL._SL160_.jpg",
+          "Height": 160,
           "Width": 160
         }
       }
     },
     "ItemInfo": {
       "Title": {
-        "DisplayValue": "チェーンリング 32T 104BCD Mutte MTB ナローワイド チェーンリング シングル (レッド, アルミニウム合金)",
+        "DisplayValue": "チェーンリング 36T 104BCD Mutte MTB ナローワイド チェーンリング シングル (レッド, アルミニウム合金)",
         "Label": "Title",
         "Locale": "ja_JP"
       }
@@ -1530,7 +1530,7 @@
     "Offers": {
       "Listings": [
         {
-          "Id": "k27QpzEXfNy3Vyl5YhlyTUCAw%2FdFcDTtncvGnb1p5ktB73pYB37geFMopGbggP8TcDi5Xaxd8%2FCyFvMabXTcSbBslLChL1xy3VClgXVMrlNk1wiV0NR08Byod6%2FRAVlBKNw%2B6%2BpUHzWLfYc5scsmucoW%2FaYVKA6XzCH%2FJhvIMFZgIG5v5kZLkw%3D%3D",
+          "Id": "9ZECZRyBctYmwbTf5GVyZjwicfgVdXWRkpfnxKRbYOqzlQ9okjYdwk7Iowmp19pYH%2B6w3gNmLwQJFl2QO34vPJvoUcv%2F7r2yUveP6IrGn4xpmsoSEpzPIrkXxPfhNm9ldacDVqZFhWxmcNbROjxZAY5YPJDgV1%2FMGslyMR35UeMjc%2B9hbm9jWw%3D%3D",
           "Price": {
             "Amount": 999,
             "Currency": "JPY",

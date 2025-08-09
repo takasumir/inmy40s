@@ -2,7 +2,11 @@ import { render } from "preact";
 import { html } from "htm/preact";
 
 const PaAd = ({ item }) =>
-  html`<div class="pa p-4 basis-xs w-xs border-4 rounded-xl border-[#1A237E]">
+  html`<div
+    class="pa p-4 basis-xs w-xs border-4 rounded-xl border-[#1A237E]"
+    data-asin="${item.ASIN}"
+    id="${item.ASIN}"
+  >
     <a
       href="${item.DetailPageURL}"
       aria-label="${item.ItemInfo.Title.DisplayValue}"
@@ -22,7 +26,7 @@ const PaAd = ({ item }) =>
       >
       <a
         class="inline-block rounded-full ml-4 py-2 px-4 bg-[#1A237E] transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500"
-        href="https://www.amazon.co.jp/dp/B00H3UCEHW?tag=takasumir-22&linkCode=ogi&th=1&psc=1"
+        href="${item.DetailPageURL}"
         >Amazonで見る</a
       >
     </div>
@@ -52,8 +56,9 @@ async function renderItems(asins, containers) {
     const items = res.ItemsResult.Items;
     containers.forEach((ele) => {
       const item = items.find((item) => item.ASIN === ele.dataset.asin);
-      console.log(item);
-      render(html`<${PaAd} item=${item} />`, ele);
+      console.log(ele);
+      console.log(document.getElementById(item.ASIN));
+      render(html`<${PaAd} item=${item} />`, ele.parentNode, ele);
     });
   }
 }
