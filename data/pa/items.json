@@ -1,5 +1,38 @@
 [
   {
+    "ASIN": "B07XVY2MNX",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B07XVY2MNX?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+      "Primary": {
+        "Medium": {
+          "URL": "https://m.media-amazon.com/images/I/31+wufEAZ3L._SL160_.jpg",
+          "Height": 160,
+          "Width": 160
+        }
+      }
+    },
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "KIYOHARA バッグマイスター 口金つぶし W40mm×H175mm×D15mm BM01-12",
+        "Label": "Title",
+        "Locale": "ja_JP"
+      }
+    },
+    "Offers": {
+      "Listings": [
+        {
+          "Id": "j8BS%2B1Ws%2FbWJtz8omkaSJ%2FaAFJLhK2r5m0FdVmN3TcKZ4e4233gZL3V6nvqU8f64sziVLODGemJ7%2FCOXNLuCEKHlVsXlaAsxxAI1L6dGUbYLavFCNlmEe7NcNkNDNDAufvbGQ7KCwGg%3D",
+          "Price": {
+            "Amount": 1412,
+            "Currency": "JPY",
+            "DisplayAmount": "￥1,412"
+          },
+          "ViolatesMAP": false
+        }
+      ]
+    }
+  },
+  {
     "ASIN": "B00004UE8E",
     "DetailPageURL": "https://www.amazon.co.jp/dp/B00004UE8E?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
     "Images": {
