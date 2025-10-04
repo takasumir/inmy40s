@@ -1,5 +1,72 @@
 [
   {
+    "ASIN": "B00NAY3RB2",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B00NAY3RB2?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+      "Primary": {
+        "Medium": {
+          "URL": "https://m.media-amazon.com/images/I/31WJua+oUYL._SL160_.jpg",
+          "Height": 160,
+          "Width": 160
+        }
+      }
+    },
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Adafruit BLUEXIN MCP3008 8チャンネル10ビットA Dコンバータ（SPI接続）",
+        "Label": "Title",
+        "Locale": "ja_JP"
+      }
+    },
+    "Offers": {
+      "Listings": [
+        {
+          "Id": "8mpV8l0rkbcY2WAd475f9UwloNpMH%2BVk9jMWO%2FSZVFd%2BoqKZUn4QKS5EZVARuXc5%2BHnIrkls79vksHReuW3N6Gtd1S1jr5F2j4QhTTJGwWJO5y%2BAxMrgbl002ZFWg2XjPZ3bSa4qWMba%2BedFHhLGpAH4ddtmPGSshLktNdr3UdyBaEbm9a7%2FlQ%3D%3D",
+          "Price": {
+            "Amount": 999,
+            "Currency": "JPY",
+            "DisplayAmount": "￥999 (￥1,998 / 100 g)",
+            "PricePerUnit": 1998
+          },
+          "ViolatesMAP": false
+        }
+      ]
+    }
+  },
+  {
+    "ASIN": "B0DB2JBD9C",
+    "DetailPageURL": "https://www.amazon.co.jp/dp/B0DB2JBD9C?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
+    "Images": {
+      "Primary": {
+        "Medium": {
+          "URL": "https://m.media-amazon.com/images/I/3163qDOAfcL._SL160_.jpg",
+          "Height": 106,
+          "Width": 160
+        }
+      }
+    },
+    "ItemInfo": {
+      "Title": {
+        "DisplayValue": "Raspberry Pi Zero 2 WH - はんだ付け済みヘッダー付き",
+        "Label": "Title",
+        "Locale": "ja_JP"
+      }
+    },
+    "Offers": {
+      "Listings": [
+        {
+          "Id": "PFEIWuaGvNs4PgTsRlKEoXh6aKI5uIJBUDG2c%2BI6bEaajeVjqTb4tthQVkRPWvl1cwXytKhMv0rGrlZlTffFiyTfLhG5q2m8J0FfF5GliE5osXYhrMwxulHSLex3vCTG4%2BXgyU93Sm1jUNm9Tl8WBtsJs%2FvxbB3VfWBbZru31Hl3F0rUh%2Bvozw%3D%3D",
+          "Price": {
+            "Amount": 4190,
+            "Currency": "JPY",
+            "DisplayAmount": "￥4,190"
+          },
+          "ViolatesMAP": false
+        }
+      ]
+    }
+  },
+  {
     "ASIN": "B07XVY2MNX",
     "DetailPageURL": "https://www.amazon.co.jp/dp/B07XVY2MNX?tag=takasumir-22&linkCode=ogi&th=1&psc=1",
     "Images": {

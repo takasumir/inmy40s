@@ -61,11 +61,11 @@
   }
 
   ul {
-    @apply list-disc pl-4 mt-2;
+    @apply list-inside list-disc pl-4 mt-2;
   }
 
   ol {
-    @apply list-decimal pl-4 mt-2;
+    @apply list-inside list-decimal pl-4 mt-2;
   }
 
   li:not(:last-child) {
@@ -79,7 +79,7 @@
   .highlight {
     @apply my-2;
     pre {
-      @apply text-sm m-0 p-4;
+      @apply text-sm m-0 p-4 max-h-100 overflow-y-auto;
 
       code {
         @apply bg-none p-0;
@@ -88,7 +88,7 @@
   }
 
   pre:has(code) {
-    @apply p-2 m-4 bg-gray-100 rounded-lg overflow-x-auto;
+    @apply p-2 m-4 rounded-lg overflow-x-auto;
   }
 
   pre {
@@ -98,7 +98,7 @@
   }
 
   code {
-    @apply bg-gray-200 px-1 rounded-md text-green-800;
+    @apply px-1 rounded-md;
   }
 
   table {
