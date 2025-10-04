@@ -250,7 +250,7 @@ def measure():
 ## ボタンを押すと測定開始/終了する
 running = False
 led = None
-analog = none
+analog = None
 
 
 def toggle_measuring(gpio_pin):
@@ -260,7 +260,7 @@ def toggle_measuring(gpio_pin):
     if running == False:
         running = True
         led = LEDThread()
-        analog = AnalogRead(0.01)  # 0.01msのタイマーを入れる
+        analog = AnalogRead(0.01) #0.01sのタイマーを入れる
         led.start()
         analog.start()
     else:
@@ -275,17 +275,19 @@ def toggle_measuring(gpio_pin):
 if __name__ == "__main__":
     # GPIO setting
     GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_UP)
-    GPIO.add_event_detect(18, GPIO.FALLING, callback=toggle_measuring, bouncetime=300)
+    GPIO.add_event_detect(
+        18, GPIO.FALLING, callback=toggle_measuring, bouncetime=300
+    )
 
     print("MCP3008 analog data logger")
     print("resolution: 10bit")
     print("max input voltage: 3.30v")
 
     try:
-        # 検証用；アナログ読み込み間隔を0〜0.5sで振ってみる
+        # タイマを0から0.5sまで変化させて5秒ずつデータを取る場合はコメントアウト
         # measure()
-        while True:
-            sleep(1)
+        while(True): # イベント待ちループ
+            time.sleep(1)
     except KeyboardInterrupt:
         print("Ctrl-c key pressed")
         raise
