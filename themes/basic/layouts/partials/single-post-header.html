@@ -34,15 +34,24 @@
       {{ .Title }}
     </h1>
   </div>
-  {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
-  {{- $dateHuman := .Date | time.Format ":date_long" -}}
-  <time datetime="{{ $dateMachine }}" class="mb-4">{{ $dateHuman }}</time>
-  {{- with .Lastmod -}}
-    {{- $lastModMachine := . | time.Format "2006-01-02T15:04:05-07:00" -}}
-    {{- $lastModHuman := . | time.Format ":date_long" -}}
-    Lastmod:
-    <time datetime="{{ $lastModMachine }}" class="mb-4"
-      >{{ $lastModHuman }}</time
-    >
-  {{- end -}}
+  <div class="text-right text-sm">
+    <div>
+      Created:
+      {{- $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" -}}
+      {{- $dateHuman := .Date | time.Format ":date_long" -}}
+      <time datetime="{{ $dateMachine }}" class="mb-4 ml-4"
+        >{{ $dateHuman }}</time
+      >
+    </div>
+    {{- with .Lastmod -}}
+      {{- $lastModMachine := . | time.Format "2006-01-02T15:04:05-07:00" -}}
+      {{- $lastModHuman := . | time.Format ":date_long" -}}
+      <div>
+        Lastmod:
+        <time datetime="{{ $lastModMachine }}" class="mb-4 ml-4"
+          >{{ $lastModHuman }}</time
+        >
+      </div>
+    {{- end -}}
+  </div>
 </header>
