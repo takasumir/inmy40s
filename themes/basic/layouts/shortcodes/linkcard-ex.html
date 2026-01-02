@@ -1,7 +1,7 @@
 {{/* Named params: title, url, img. Summary is .Inner */}}
 {{ $summary := .Inner }}
 <article
-  class="linkcard my-4 bg-slate-50 md:p-6 rounded-lg shadow-md flex gap-4 h-36 md:h-48 overflow-hidden"
+  class="linkcard my-4 bg-slate-50 md:p-3 rounded-lg shadow-md flex gap-4 h-36 md:h-42 overflow-hidden"
 >
   <img
     src="{{ .Get "img" }}"
@@ -11,12 +11,16 @@
     class="h-36 w-36 object-cover rounded-xl flex-shrink-0"
     loading="lazy"
   />
-  <div class="flex-auto">
-    <h2 class="text-2xl mb-4 tracking-tight" text-black font-bold>
+  <div class="flex-auto self-center">
+    <h2
+      class="line-clamp-2 text-xl mb-2 tracking-tight font-bold"
+      text-black
+      font-bold
+    >
       <a class="hover:text-blue-600" href="{{ .Get "url" }}"
         >{{ .Get "title" }}</a
       >
     </h2>
-    <p class="line-clamp-3 hidden md:inline">{{ .Inner }}</p>
+    <p class="line-clamp-2 md:line-clamp-3">{{ .Inner }}</p>
   </div>
 </article>
