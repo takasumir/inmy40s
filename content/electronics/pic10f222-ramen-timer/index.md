@@ -112,12 +112,6 @@ PIC10F222は、秋月電子でお値段なんと40円程度と激安なのです
 MPLABのインストールや、ブレッドボードでPickitとPICマイコンの配線をして書き込む方法あたりは省略します。取説やネットの情報で分かるかと思います。
 
 ``` c++
-/*
- * File:   main.c
- * Author: takasumi
- *
- * Created on 2025/11/16, 19:52
- */
 // CONFIG
 #pragma config IOSCFS = 4MHZ    // Internal Oscillator Frequency Select bit (4 MHz)
 #pragma config MCPU = OFF       // Master Clear Pull-up Enable bit (Pull-up disabled)
